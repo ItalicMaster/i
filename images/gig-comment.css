@@ -1,0 +1,2398 @@
+    .gig-comments-container *,
+    *.gig-comments-container {
+      word-wrap: break-word;
+      padding: 0px;
+      margin: 0px;
+      color: inherit;
+      text-decoration: none;
+      width: auto;
+      float: none;
+      font-family: arial;
+      color: #333333;
+      position: static;
+      text-align: left;
+      vertical-align: baseline;
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+
+    .gig-comments-container input {
+      outline: none
+    }
+
+    .gig-comments-container .gig-composebox-summary-input {
+      font-weight: bold;
+    }
+
+    .gig-comments-container .gig-composebox-summary-input.gig-comments-placeholder {
+      font-weight: bold;
+    }
+
+    .gig-comments-container .gig-comments-placeholder {
+      color: #999;
+      opacity: 1
+    }
+
+    .gig-comments-container input:-moz-placeholder {
+      color: #585858;
+      opacity: 1
+    }
+
+    .gig-comments-container input::-moz-placeholder {
+      color: #585858;
+      opacity: 1
+    }
+
+    .gig-comments-container input::-webkit-input-placeholder {
+      color: #585858;
+      opacity: 1
+    }
+
+    .gig-comments-container input:-moz-placeholder {
+      color: #585858;
+      opacity: 1
+    }
+
+    *.gig-comments-container u {
+      text-decoration: underline
+    }
+
+    .gig-comments-container li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none
+    }
+
+    .gig-comments-container ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    *.gig-composebox-textarea ul,
+    .gig-comment-body ul {
+      padding-left: 20px;
+    }
+
+    *.gig-composebox-textarea li,
+    .gig-comment-body li {
+      list-style-type: disc
+    }
+
+    .gig-comments-container * {}
+
+    *.gig-comments-container-progress {
+      width: 100%;
+      height: 38px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/progress_ani_gif_x1.gif')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-container-progress {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/progress_ani_gif_x1.gif')
+    }
+
+    *.gig-clearfix {
+      clear: both
+    }
+
+    *.gig-comments-header {
+      overflow: hidden;
+      border-bottom: 1px solid #EBEBEB;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+    }
+
+    *.gig-comments-count {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    *.gig-comments-header-right {
+      float: right;
+    }
+
+    *.gig-comments-header-left {
+      float: left;
+    }
+
+    *.gig-comments-linksContainer {
+      display: inline-block;
+    }
+
+    *.gig-comments-linksContainer li,
+    *.gig-comments-linksContainer a,
+    *.gig-comments-linksContainer li a:hover,
+    *.gig-comments-linksContainer a:active,
+    *.gig-comments-linksContainer a:visited,
+    *.gig-comments-linksContainer a:link {
+      color: #999999;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    *.gig-comments-linksContainer li {
+      margin-right: 3px;
+    }
+
+    *.gig-comments-linksContainer li:after {
+      content: " ";
+      width: 2px;
+      height: 2px;
+      background-color: #999999;
+      vertical-align: middle;
+      margin-left: 3px;
+      display: inline-block;
+    }
+
+    *.gig-comments-linksContainer *.gig-comments-link-lastVisible:after {
+      content: "";
+      margin: 0;
+      display: none;
+    }
+
+    *.gig-comments-linksContainer *.gig-comments-link-lastVisible {
+      margin-right: 0;
+    }
+
+    *.gig-comment {
+      width: 100%;
+      outline: 0;
+    }
+
+    *.gig-comment * {
+      color: #999999;
+    }
+
+    *.gig-comment .gig-comment-content {
+      padding-left: 6px;
+      transition-property: background-color, padding;
+    }
+
+    *.gig-comment-newComment .gig-comment-content {
+      padding: 6px;
+      background-color: #CEFAD3;
+      border-radius: 4px;
+    }
+
+    *.gig-comment-summary {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+      vertical-align: top;
+      color: #333333;
+      font-size: 14px;
+    }
+
+    *.gig-comment-photo {
+      float: left;
+      width: 37px;
+      height: 37px;
+    }
+
+    *.gig-comment-providerLogo {
+      text-align: right;
+    }
+
+    *.gig-comment-providerLogo img {
+      width: 14px;
+      height: 14px;
+      margin-top: -11px;
+      margin-right: -3px;
+      display: inline-block;
+    }
+
+    *.gig-comment-data {
+      padding-left: 41px;
+    }
+
+    *.gig-comment-header {
+      overflow: hidden;
+      margin-bottom: 6px;
+    }
+
+    *.gig-comment-header-right {
+      float: right;
+    }
+
+    *.gig-comment-time {
+      font-size: 11px;
+      display: inline-block;
+      margin: 2px 0 0 10px;
+      float: right;
+    }
+
+    *.gig-comment-username {
+      font-weight: bold;
+      color: #333333;
+      margin-right: 6px;
+      display: inline-block;
+    }
+
+    *.gig-comment-body,
+    .gig-comment-body * {
+      color: #585858;
+      line-height: 18px;
+    }
+
+    *.gig-comment-footer,
+    *.gig-comment-replies {
+      padding-left: 6px
+    }
+
+    *.gig-comment-replies {
+      transition-property: max-height;
+      overflow: hidden;
+    }
+
+    *.gig-comment-replies-collapsed {
+      display: none;
+    }
+
+    *.gig-comment-footer {
+      font-size: 11px;
+      overflow: hidden;
+      border-bottom: 1px solid #EBEBEB;
+      margin: 10px 0;
+      padding-bottom: 10px;
+    }
+
+    *.gig-comment[data-level="0"]:last-of-type *.gig-comment-footer:last-ch {
+      border-bottom: none;
+    }
+
+    *.gig-comment-footer-left {
+      float: left;
+    }
+
+    *.gig-comment-footer li {
+      cursor: pointer;
+    }
+
+    *.gig-comment .gig-comment-replybox {
+      display: none;
+      background-color: #F6F6F6;
+      padding: 4px 6px;
+    }
+
+    *.gig-comment .gig-comment-replybox-open {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    *.gig-comment .gig-composebox-title,
+    *.gig-comment .gig-composebox-title * {
+      font-weight: normal;
+      font-style: italic;
+      color: #333333
+    }
+
+    *.gig-comment *.gig-composebox-username {
+      font-weight: bold;
+    }
+
+    *.gig-comment-repliesArrow div {
+      display: inline-block
+    }
+
+    *.gig-comment-repliesArrow-img {
+      margin: 0 1px 0 6px;
+      width: 9px;
+      height: 9px;
+      margin-right: 3px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Reply_Arrow_x1.png');
+      background-repeat: no-repeat;
+      background-position: 0px 3px;
+    }
+
+    .gig-comments-hires-icons *.gig-comment-repliesArrow-img {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Reply_Arrow_x1.png');
+    }
+
+    *.gig-comment-repliesArrow .gig-comment-repliesArrow-img {}
+
+    *.gig-comment-repliesArrow-collapsed .gig-comment-repliesArrow-img {
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+
+    *.gig-comment-status {
+      display: none;
+      border-radius: 3px;
+      color: #FFFFFF;
+      padding: 2px 8px;
+      border-radius: 3px;
+      margin-bottom: 6px;
+    }
+
+    *.gig-comment-body a:link {
+      color: #007ACF;
+      text-decoration: underline;
+    }
+
+    *.gig-comment-body a:visited {
+      color: #61007d;
+      text-decoration: underline;
+    }
+
+    *.gig-comment-status-info {
+      display: inline-block;
+      background-color: #64B46F;
+    }
+
+    *.gig-comment-status-error {
+      display: inline-block;
+      background-color: #D0605F;
+      margin-bottom: 6px;
+    }
+
+    *.gig-comment-viaProvider {
+      display: inline-block;
+      font-style: italic;
+      margin: 0 12px;
+      padding: 0 0 0 12px;
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+
+    *.gig-comment-viaProvider-facebook {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2//providers/Facebook_9x9_x1.png');
+    }
+
+    .gig-comments-hires-icons *.gig-comment-viaProvider-facebook {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2//providers/Facebook_9x9_x1.png');
+    }
+
+    .gig-comments-hires-icons *.gig-loginbox-provider {
+      background-size: 15px;
+    }
+
+    img.gig-comment-img {
+      border-radius: 3px;
+    }
+
+    *.gig-comment-footer-right {
+      float: right;
+    }
+
+    *.gig-comment-footer-right div {
+      display: inline-block;
+      height: 17px;
+      line-height: 16px;
+      vertical-align: bottom;
+    }
+
+    *.gig-comment-vote-pos,
+    *.gig-comment-vote-neg {
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      padding-left: 14px;
+    }
+
+    *.gig-comment-vote-with-value {
+      padding-left: 17px;
+    }
+
+    *.gig-comment-vote-total {
+      margin-right: 5px;
+    }
+
+    *.gig-comment-vote-pos {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-pos {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_x1.png')
+    }
+
+    *.gig-comment-vote-pos-down {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_pressed_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-pos-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_pressed_x1.png')
+    }
+
+    *.gig-comment-vote-neg {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_x1.png');
+      margin-left: 15px;
+      position: relative;
+      background-position: 0 3px;
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-neg {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_x1.png');
+    }
+
+    *.gig-comment-vote-posneg *.gig-comment-vote-neg {
+      margin-left: 2px;
+    }
+
+    *.gig-comment-vote-neg-down {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_pressed_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-neg-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_pressed_x1.png')
+    }
+
+    *.gig-comment-flag {
+      margin: 0 15px;
+      vertical-align: top;
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      visibility: hidden;
+      cursor: pointer;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Flag_Icon_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-flag {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Flag_Icon_x1.png')
+    }
+
+    *.gig-comment-flag-submitted {
+      cursor: default;
+      visibility: visible;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Flag_Icon_Submitted_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-flag-submitted {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Flag_Icon_Submitted_x1.png')
+    }
+
+    *.gig-comments-more {
+      cursor: pointer;
+      border-radius: 3px;
+      line-height: 38px;
+      border: 1px solid #F7F6F6;
+      background-color: #F9F9F9;
+      text-align: center;
+    }
+
+    *.gig-comments-more:hover {
+      background-color: #E5E5E5
+    }
+
+    *.gig-comments-more-progress {
+      cursor: default;
+      width: 100%;
+      height: 38px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/progress_ani_gif_x1.gif')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-more-progress {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/progress_ani_gif_x1.gif')
+    }
+
+    *.gig-comments-more-progress:hover {
+      background-color: #F9F9F9;
+    }
+
+    *.gig-comments-dialog {
+      min-width: 367px;
+      min-height: 140px;
+      border: 6px solid #858585;
+      border-radius: 5px;
+      background-color: #FFFFFF;
+    }
+
+    *.gig-comments-dialog-close {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      width: 15px;
+      height: 15px;
+      float: right;
+      cursor: pointer;
+    }
+
+    .gig-comments-hires-icons *.gig-comments-dialog-close {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-size: contain;
+    }
+
+    *.gig-comments-dialog-caption-container {
+      overflow: hidden;
+      background-color: #f3f3f3;
+      padding: 5px 5px 5px 12px;
+      overflow: auto;
+      zoom: 1;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4d4d4d;
+    }
+
+    *.gig-comments-dialog-caption {
+      display: inline-block;
+      float: left;
+    }
+
+    *.gig-comments-dialog-body {
+      padding: 24px 12px 12px 12px;
+    }
+
+    *.gig-comments-dialog-buttons {
+      margin-top: 12px;
+      text-align: right;
+      margin: 20px;
+    }
+
+    *.gig-comments-dialog-text {
+      margin-bottom: 10px;
+    }
+
+    *.gig-comments-dialog-textbox-container {
+      float: left
+    }
+
+    *.gig-comments-dialog-textbox {
+      width: 260px;
+      color: #4D4D4D;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0 4px;
+      background-color: white;
+      border: 1px solid #C0C0C0;
+      height: 24px;
+      box-shadow: inset 0 0 4px #DCDCDC;
+      -moz-box-shadow: inset 0 0 4px #DCDCDC;
+      -webkit-box-shadow: inset 0 0 4px #DCDCDC;
+    }
+
+    *.gig-comments-dialog-subscribe-okIcon {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/ok_icon_x1.png');
+      width: 14px;
+      height: 14px;
+      position: relative;
+      top: 2px;
+      margin-right: 2px;
+      display: inline-block;
+    }
+
+    .gig-comments-hires-icons *.gig-comments-dialog-subscribe-okIcon {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/ok_icon_x1.png');
+    }
+
+    *.gig-comments-dialog-button {
+      line-height: 22px;
+      font-size: 12px;
+      margin-left: 7px;
+      font-weight: bold;
+      min-width: 50px;
+      position: relative;
+      border-radius: 3px;
+      color: #4d4d4d;
+      cursor: pointer;
+      font-size: 11px;
+      padding: 0 5px;
+      border: 1px solid #C5C7C7;
+      display: inline-block;
+      zoom: 1;
+      vertical-align: middle;
+      text-align: center;
+      box-shadow: 0 0 2px RGBA(0, 0, 0, 0.15);
+      -webkit-box-shadow: 0 0 2px RGBA(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 0 2px RGBA(0, 0, 0, 0.15);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#EAEBEB");
+      background: linear-gradient(top, #FFFFFF, #EAEBEB);
+      background: -ms-linear-gradient(top left, #FFFFFF, #EAEBEB);
+      background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAEBEB));
+      background: -moz-linear-gradient(top, #FFFFFF, #EAEBEB)
+    }
+    }
+
+    *.gig-comments-dialog-button:hover {
+      color: #b4b4b4;
+      cursor: default;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EBEBEB", endColorstr="#FFFFFF");
+      background: linear-gradient(top, #EBEBEB, #FFFFFF);
+      background: -ms-linear-gradient(top left, #EBEBEB, #FFFFFF);
+      background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#FFFFFF));
+      background: -moz-linear-gradient(top, #EBEBEB, #FFFFFF)
+    }
+
+    *.gig-comments-dialog-error {
+      color: #ce585a;
+      font-size: 11px;
+      margin-top: 5px;
+      clear: both;
+    }
+
+    *.gig-comments-dialog-textbox-button {}
+
+    *.gig-composebox {
+      margin-bottom: 23px;
+    }
+
+    *.gig-composebox-login {}
+
+    *.gig-composebox-login div {
+      display: inline-block;
+      line-height: 30px;
+      font-weight: bold;
+    }
+
+    *.gig-composebox-or {
+      margin: 0 10px;
+    }
+
+    *.gig-composebox-social-login,
+    *.gig-composebox-guest-login,
+    *.gig-composebox-site-login {
+      border-radius: 3px;
+      cursor: pointer;
+      padding: 0 15px;
+      font-size: 14px;
+      box-shadow: inset 1px 1px #fff;
+      border: solid 1px #e2e2e2;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f5", endColorstr="#f1f1f0");
+      background: linear-gradient(top, #f5f5f5, #f1f1f0);
+      background: -ms-linear-gradient(top left, #f5f5f5, #f1f1f0);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f0));
+      background: -moz-linear-gradient(top, #f5f5f5, #f1f1f0);
+    }
+
+    *.gig-composebox-social-login:hover,
+    *.gig-composebox-guest-login:hover,
+    *.gig-composebox-site-login:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EFEFEF", endColorstr="#E1E1E1");
+      background: linear-gradient(top, #EFEFEF, #E1E1E1);
+      background: -ms-linear-gradient(top left, #EFEFEF, #E1E1E1);
+      background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#E1E1E1));
+      background: -moz-linear-gradient(top, #EFEFEF, #E1E1E1);
+    }
+
+    *.gig-composebox-social-login {
+      padding: 0 9px;
+      background-repeat: no-repeat;
+      background-position: right center;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f5", endColorstr="#f1f1f0");
+      background: linear-gradient(top, #f5f5f5, #f1f1f0);
+      background: -ms-linear-gradient(top left, #f5f5f5, #f1f1f0);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f0));
+      background: -moz-linear-gradient(top, #f5f5f5, #f1f1f0);
+    }
+
+    *.gig-composebox-social-login:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#EFEFEF", endColorstr="#E1E1E1");
+      background: linear-gradient(top, #EFEFEF, #E1E1E1);
+      background: -ms-linear-gradient(top left, #EFEFEF, #E1E1E1);
+      background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#E1E1E1));
+      background: -moz-linear-gradient(top, #EFEFEF, #E1E1E1);
+    }
+
+    *.gig-composebox-login-icon {
+      background-position: center;
+      display: inline-block;
+      width: 36px;
+      height: 17px;
+      margin: 0 7px;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Login-icons-fb_tw_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-login-icon {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Login-icons-fb_tw_x1.png')
+    }
+
+    *.gig-composebox-login-drop-icon {
+      background-position: center;
+      display: inline-block;
+      width: 9px;
+      height: 17px;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Login_icons_arrow_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-login-drop-icon {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Login_icons_arrow_x1.png')
+    }
+
+    *.gig-composebox-header {
+      transition-property: max-height;
+      overflow: hidden;
+      margin-bottom: 4px;
+    }
+
+    .gig-composebox-open *.gig-composebox-header {
+      margin-bottom: 4px;
+    }
+
+    .gig-comments-reviews .gig-composebox-header,
+    .gig-comments-reviews .gig-composebox-open .gig-composebox-header {
+      max-height: none;
+    }
+
+    *.gig-composebox-header-left {
+      float: left;
+    }
+
+    *.gig-composebox-header-right {
+      float: right;
+    }
+
+    *.gig-composebox-header-right *,
+    *.gig-composebox-header-left * {
+      vertical-align: bottom;
+    }
+
+    *.gig-composebox-title,
+    *.gig-composebox-name {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0 5px 0 0;
+    }
+
+    *.gig-composebox-logout {
+      cursor: pointer;
+      display: inline-block;
+      font-size: 11px;
+      color: #999999;
+    }
+
+    *.gig-composebox-logout span {
+      font-size: 12px;
+      color: #0796c6
+    }
+
+    *.gig-composebox-logout:hover span {
+      text-decoration: underline
+    }
+
+    *.gig-composebox-close {
+      visibility: hidden;
+    }
+
+    *.gig-comment-replybox *.gig-composebox-close {
+      visibility: visible;
+      display: inline-block;
+      margin-left: 5px;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gig-comments-hires-icons *.gig-comment-replybox *.gig-composebox-close {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-size: contain;
+    }
+
+    *.gig-comment-replybox *.gig-composebox-close:hover {
+      background-color: #ebebeb;
+    }
+
+    *.gig-composebox-follow {
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-block;
+      color: #919191;
+      padding-left: 12px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 8px 8px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Follow_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-follow {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Follow_x1.png')
+    }
+
+    *.gig-composebox-following {
+      background-size: 8px 8px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Following_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-following {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Following_x1.png')
+    }
+
+    *.gig-composebox-following:hover {
+      background-size: 8px 8px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Unfollow_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-following:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Unfollow_x1.png')
+    }
+
+    *.gig-composebox-photo {
+      float: left;
+      width: 37px;
+      height: 37px
+    }
+
+    *.gig-composebox-data {
+      padding-left: 47px;
+    }
+
+    *.gig-comments-composebox *.gig-composebox-data {
+      margin-bottom: 20px;
+    }
+
+    *.gig-composebox-footer {
+      display: none;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+
+    .gig-composebox-open *.gig-composebox-footer {
+      display: block;
+    }
+
+    *.gig-composebox-footer-left,
+    *.gig-composebox-footer-right {
+      padding: 2px 0;
+    }
+
+    *.gig-composebox-footer-left {
+      float: left;
+    }
+
+    *.gig-composebox-footer-right {
+      float: right;
+    }
+
+    *.gig-composebox-cancel {
+      cursor: pointer;
+      padding: 0 18px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #484848;
+      display: inline-block;
+      line-height: 28px;
+      border-radius: 3px;
+      background-color: #484848;
+      box-shadow: 1px 1px rgba(255, 255, 255, 0.4) inset;
+      border: 1px solid #bfbfbf;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2e2e2", endColorstr=" #bfbfbf");
+      background: linear-gradient(top, #e2e2e2, #bfbfbf);
+      background: -ms-linear-gradient(top left, #e2e2e2, #bfbfbf);
+      background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#bfbfbf));
+      background: -moz-linear-gradient(top, #e2e2e2, #bfbfbf);
+      margin-right: 6px;
+    }
+
+    *.gig-composebox-cancel:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e2e2e2", endColorstr=" #bfbfbf");
+      background: linear-gradient(top, #e2e2e2, #bfbfbf);
+      background: -ms-linear-gradient(top left, #e2e2e2, #bfbfbf);
+      background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#bfbfbf));
+      background: -moz-linear-gradient(top, #e2e2e2, #bfbfbf);
+    }
+
+    *.gig-composebox-post {
+      cursor: pointer;
+      padding: 0 18px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #FFFFFF;
+      display: inline-block;
+      line-height: 28px;
+      border-radius: 3px;
+      background-color: #D8D8D8;
+      box-shadow: 1px 1px rgba(255, 255, 255, 0.4) inset;
+      border: 1px solid #51AE48;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#88cb82", endColorstr="#72c26d");
+      background: linear-gradient(top, #88cb82, #72c26d);
+      background: -ms-linear-gradient(top left, #88cb82, #72c26d);
+      background: -webkit-gradient(linear, left top, left bottom, from(#88cb82), to(#72c26d));
+      background: -moz-linear-gradient(top, #88cb82, #72c26d);
+    }
+
+    *.gig-comments-button {
+      cursor: -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -o-user-select: none;
+    }
+
+    *.gig-composebox-post:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7AB574", endColorstr="#68AF63");
+      background: linear-gradient(top, #7AB574, #68AF63);
+      background: -ms-linear-gradient(top left, #7AB574, #68AF63);
+      background: -webkit-gradient(linear, left top, left bottom, from(#7AB574), to(#68AF63));
+      background: -moz-linear-gradient(top, #7AB574, #68AF63);
+    }
+
+    *.gig-composebox-postAnonymously {
+      display: inline-block;
+    }
+
+    *.gig-composebox-anon-text {
+      vertical-align: middle;
+      display: inline-block;
+      font-family: arial;
+      font-size: 12px;
+      color: #999999;
+      padding: 0 10px 0 5px;
+    }
+
+    *.gig-composebox-anon-checkbox {
+      vertical-align: middle;
+    }
+
+    *.gig-composebox-summary {
+      display: none;
+      padding: 9px;
+    }
+
+    .gig-composebox-open *.gig-composebox-summary {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    *.gig-composebox-summary input {
+      width: 100%;
+      border: none;
+      color: #585858;
+    }
+
+    *.gig-composebox-editor {
+      text-align: right;
+      padding: 0 9px 9px 9px;
+    }
+
+    *.gig-composebox-editor-with-sidebar {
+      padding: 0 29px 9px 9px;
+    }
+
+    *.gig-composebox-editor,
+    *.gig-composebox-summary {
+      background-color: #FFFFFF;
+      border: 1px solid #D5D5D5;
+      border-radius: 3px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.05) inset;
+      border: solid 1px #d5d5d5;
+    }
+
+    *.gig-composebox-textarea {
+      line-height: 18px;
+      transition-property: min-height;
+      text-align: left;
+      cursor: text;
+      min-height: 17px;
+      resize: none;
+      border: none;
+      margin-top: 9px;
+      outline: none
+    }
+
+    *.gig-composebox-textarea,
+    *.gig-composebox-textarea * {
+      color: #585858;
+      font-size: 14px;
+    }
+
+    textarea.gig-composebox-textarea {
+      overflow: hidden;
+      width: 100%;
+      display: block;
+      height: 17px;
+    }
+
+    .gig-composebox-open textarea.gig-composebox-textarea {
+      height: 65px;
+    }
+
+    .gig-composebox-open *.gig-composebox-textarea {
+      min-height: 69px;
+    }
+
+    *.gig-composebox-textarea,
+    *.gig-composebox-textarea *,
+    *.gig-composebox-summary input {
+      font-size: 12px;
+    }
+
+    *.gig-composebox-textarea:empty:not(:focus):before {
+      color: #999;
+      content: attr(data-placeholder);
+    }
+
+    ul.gig-composebox-sidebar {
+      display: none;
+      background-color: #FFFFFF;
+      float: right;
+      margin-right: -29px;
+    }
+
+    ul.gig-composebox-sidebar {
+      transition-property: opacity;
+      opacity: 0;
+    }
+
+    .gig-composebox-open *.gig-composebox-sidebar {
+      opacity: 1;
+      display: inline-block;
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-button {
+      background-size: 18px 18px;
+    }
+
+    *.gig-composebox-sidebar-button {
+      border-radius: 0px;
+      background-color: #f0f0f0;
+      width: 29px;
+      height: 29px;
+      display: block;
+      background-color: #F7F3F7;
+    }
+
+    *.gig-composebox-sidebar-button:last-child:nth-child(-n+2) {
+      border-radius: 0 0 0 3px;
+    }
+
+    *.gig-composebox-sidebar-button:hover,
+    *.gig-composebox-sidebar-button-down {
+      background-color: #f1f1f1;
+      box-shadow: inset 0 0 9px rgba(0, 0, 0, .26);
+    }
+
+    *.gig-composebox-sidebar-font {
+      cursor: pointer;
+      width: 29px;
+      height: 29px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_up_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-font {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_up_x1.png')
+    }
+
+    *.gig-composebox-sidebar-font:hover,
+    *.gig-composebox-sidebar-font.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-font:hover,
+    .gig-comments-hires-icons *.gig-composebox-sidebar-font.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_hover_x1.png')
+    }
+
+    *.gig-composebox-sidebar-tag {
+      cursor: pointer;
+      width: 29px;
+      height: 29px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/User_tagging_up_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-tag {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/User_tagging_up_x1.png')
+    }
+
+    *.gig-composebox-sidebar-tag:hover,
+    *.gig-composebox-sidebar-tag.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/User_tagging_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-tag:hover,
+    *.gig-composebox-sidebar-tag.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/User_tagging_hover_x1.png')
+    }
+
+    *.gig-composebox-sidebar-media {
+      cursor: pointer;
+      width: 29px;
+      height: 29px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Media_up_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-media {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Media_up_x1.png')
+    }
+
+    *.gig-composebox-sidebar-media:hover,
+    *.gig-composebox-sidebar-media.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Media_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-sidebar-media:hover,
+    .gig-comments-hires-icons *.gig-composebox-sidebar-media.gig-composebox-sidebar-button-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Media_hover_x1.png')
+    }
+
+    *.gig-composebox-field-error {
+      border: 1px solid #F9888E;
+    }
+
+    *.gig-composebox-error {
+      border-radius: 3px;
+      color: #FFFFFF;
+      text-align: center;
+      line-height: 22px;
+      background: #F9888E;
+      margin-bottom: 7px;
+      display: none;
+      font-weight: bold;
+      font-size: 13px;
+    }
+
+    *.gig-composebox-postAnonymously {
+      cursor: pointer;
+      vertical-align: top;
+      padding-top: 4px;
+    }
+
+    *.gig-comments-checkbox {
+      width: 10px;
+      height: 10px;
+      border: 1px solid #C6C6C6;
+      display: inline-block;
+      border-radius: 1px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(189, 189, 189, 0.25) inset
+    }
+
+    *.gig-comments-checkbox-checked {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/shareToProviders/checkmark_x1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gig-comments-hires-icons *.gig-comments-checkbox-checked {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/shareToProviders/checkmark_x1.png');
+    }
+
+    *.gig-selfreview-header {
+      overflow: hidden;
+    }
+
+    *.gig-selfreview-header-left {
+      float: left;
+    }
+
+    *.gig-selfreview-header-right {
+      float: right;
+    }
+
+    *.gig-selfreview-summary-container,
+    *.gig-selfreview-body-container {
+      background-color: #EDEDED;
+      margin: 5px 0;
+      padding: 6px 10px;
+      border-radius: 3px;
+    }
+
+    *.gig-selfreview-field-title {
+      font-weight: bold;
+      margin: 0 7px 0 0;
+    }
+
+    *.gig-selfreview-nameAndLogout {
+      padding: 0 0 0 47px;
+      height: 37px;
+    }
+
+    *.gig-selfreview-yourReview {
+      font-weight: bold;
+      color: #919191;
+      margin-bottom: 3px;
+    }
+
+    *.gig-selfreview-ratings {
+      margin: 5px 0
+    }
+
+    *.gig-selfreview-rating .gig-comment-rating-value {
+      margin-left: 2px;
+    }
+
+    *.gig-selfreview-rating-_overall .gig-comment-rating-value {
+      margin-left: 0px;
+    }
+
+    *.gig-selfreview-rating-_overall.gig-selfreview-rating {
+      margin-bottom: 5px;
+    }
+
+    *.gig-comments-guestbox {
+      transition-property: max-height;
+      background-color: #FFFFFF;
+      border: 1px solid #E2E2E2;
+      border-radius: 0 3px 3px 3px;
+      overflow: hidden;
+      width: 150px;
+      font-size: 10px;
+      color: #919191;
+      padding: 0 13px 0 13px
+    }
+
+    *.gig-comments-guestbox input {
+      width: 150px;
+      border-radius: 3px;
+      height: 24px;
+      line-height: 22px;
+      color: #919191;
+      border: 1px solid #C0C0C0;
+      padding-left: 2px;
+    }
+
+    *.gig-guestbox-fields {
+      margin: 16px 0 0px;
+    }
+
+    *.gig-guestbox-nickname {
+      margin: 0px 0 10px;
+    }
+
+    *.gig-guestbox-text {
+      font-size: 10px;
+      margin: 5px 0;
+    }
+
+    *.gig-guestbox-ok {
+      margin-bottom: 8px;
+      float: right;
+      display: inline-block;
+      cursor: pointer;
+      padding: 0 9px;
+      font-weight: bold;
+      color: #222121;
+      text-shadow: 0 2px rgba(255, 255, 255, .4);
+      line-height: 22px;
+      border-radius: 3px;
+      background-color: #f2f2f2;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .25), inset 0 0 2px rgba(255, 255, 255, .24);
+      border: solid 1px #c4c7cd;
+    }
+
+    *.gig-guestbox-error {
+      margin-left: 4px;
+      display: inline-block;
+      color: #e70707;
+      font-size: 10px;
+      width: 100px;
+      float: left;
+      margin-bottom: 8px;
+    }
+
+    *.gig-comments-loginbox {
+      transition-property: max-height;
+      background-color: #FFFFFF;
+      border: 1px solid #E2E2E2;
+      border-radius: 0 0 3px 3px;
+      overflow: hidden;
+      min-width: 115px;
+      font-size: 10px;
+      color: #919191;
+    }
+
+    *.gig-comments-loginbox-open {}
+
+    *.gig-loginbox-provider {
+      background-repeat: no-repeat;
+      background-position: left center;
+      margin-left: 9px;
+      padding: 8px 8px 8px 22px;
+      cursor: pointer;
+      border-bottom: 1px solid #EAEAEA
+    }
+
+    *.gig-loginbox-provider:last-child {
+      border-bottom: none;
+    }
+
+    *.gig-loginbox-provider:hover {
+      background-color: #F9F9F9
+    }
+
+    *.gig-loginbox-provider[data-provider=more] {
+      padding-left: 0px
+    }
+
+    *.gig-signinbox-provider {
+      margin-left: 8px;
+      padding: 8px 8px 8px 1px;
+      cursor: default;
+      border-bottom: 1px solid #EAEAEA
+    }
+
+    *.gig-comments-usertaggingbox {
+      width: 290px;
+      border-radius: 3px;
+      background-color: #FFF;
+      border: solid 1px #d5d5d5;
+      font-family: arial;
+    }
+
+    *.gig-usertagging-title {
+      color: #666666;
+      background-color: #F4F4F4;
+      font-size: 10px;
+      border-radius: 2px;
+      padding: 7px;
+      font-family: inherit;
+    }
+
+    *.gig-usertagging-suggestions {
+      list-style-type: none;
+      margin: 0;
+      padding: 0px;
+      font-family: inherit;
+      font-size: 12px;
+    }
+
+    *.gig-usertagging-suggestions li {
+      cursor: pointer;
+      padding-left: 8px;
+      border-top: solid 1px #eaeaea;
+      height: 18px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    *.gig-usertagging-suggestions li *.gig-usertagging-username {
+      margin-left: 8px;
+      vertical-align: top;
+      line-height: 20px;
+    }
+
+    *.gig-usertagging-suggestions li *.gig-usertagging-userimage {
+      border-radius: 3px;
+      width: 18px;
+      height: 18px;
+    }
+
+    *.gig-usertagging-suggestions li.gig-usertagging-selected {
+      background-color: #f9f9f9;
+    }
+
+    *.gig-usertagging-tag {
+      -webkit-appearance: none;
+      border-radius: 8px 9px 9px 8px / 8px 8px 10px 10px;
+      background-color: #d5e4f2;
+      border-style: none;
+      padding: 0px 4px 0px 4px;
+    }
+
+    *.gig-composebox-share {
+      vertical-align: top;
+      overflow: hidden;
+      background-color: #F4F4F4;
+      border-radius: 3px;
+      padding-left: 4px;
+    }
+
+    *.gig-comment .gig-composebox-share {
+      border: 1px solid #E8E8E8
+    }
+
+    *.gig-composebox-share-text {
+      line-height: 26px;
+      vertical-align: top;
+      display: inline-block;
+      color: #999999;
+    }
+
+    *.gig-composebox-share-providers {
+      display: inline-block;
+    }
+
+    *.gig-comments-share-provider {
+      display: none;
+      height: 18px;
+      width: 36px;
+      background-position: 23px center;
+      padding: 4px 3px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      border-right: 1px solid #FFFFFF;
+    }
+
+    .gig-comments-hires-icons *.gig-comments-share-provider {
+      background-size: 16px 16px
+    }
+
+    *.gig-comments-share-provider-shown {
+      display: inline-block;
+    }
+
+    *.gig-comments-share-more {
+      cursor: pointer;
+      vertical-align: top;
+      padding: 4px;
+      display: inline-block;
+      height: 18px;
+      width: 16px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/sharetoProviders/Share_More_providers_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-share-more {
+      background-size: 8px 8px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/sharetoProviders/Share_More_providers_x1.png')
+    }
+
+    *.gig-comments-share-provider-checkbox {
+      margin-top: 3px;
+    }
+
+    *.gig-composebox-morebox {
+      width: 265px;
+      border: 5px solid #858585;
+      border-radius: 3px;
+    }
+
+    *.gig-composebox-morebox-caption {
+      background-color: #F3F3F3;
+      overflow: hidden;
+      line-height: 15px;
+      padding: 3px;
+    }
+
+    *.gig-composebox-morebox-title {
+      margin-left: 3px;
+      font-weight: bold;
+      float: left;
+      background-color: #F3F3F3;
+      overflow: hidden;
+      color: #4D4D4D;
+    }
+
+    *.gig-composebox-morebox-close {
+      float: right;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-morebox-close {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-size: contain;
+    }
+
+    *.gig-composebox-morebox *.gig-composebox-morebox-providers {
+      padding: 0 6px;
+      background-color: #FFFFFF;
+    }
+
+    *.gig-composebox-morebox *.gig-composebox-morebox-providers li {
+      padding-left: 18px;
+      margin: 4px 0;
+      width: 105px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      background-size: 14px;
+    }
+
+    *.gig-comments-sortbox {
+      margin-top: 9px;
+      border-radius: 3px;
+      background-color: #fff;
+      box-shadow: -1px 2px 1px rgba(35, 31, 32, .07);
+      border: solid 1px #b0b0b0;
+      padding: 3px 8px;
+      display: inline-block;
+    }
+
+    *.gig-comments-sortbox:before {
+      content: "";
+      width: 13px;
+      right: 12px;
+      height: 7px;
+      display: inline-block;
+      position: absolute;
+      top: -7px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sort_dropdown_triangle_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-sortbox:before {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sort_dropdown_triangle_x1.png')
+    }
+
+    *.gig-comments-sortbox li {
+      color: #999999;
+      cursor: pointer;
+      min-width: 80px;
+      padding: 7px 5px;
+      border-bottom: 1px solid #EAEAEA;
+    }
+
+    *.gig-comments-sortbox li:last-child {
+      border-bottom: none
+    }
+
+    *.gig-comments-sortbox li:hover {
+      color: #848484;
+      background-color: #F4F4F4;
+    }
+
+    *.gig-comments-sortbox-selected {
+      font-weight: bold
+    }
+
+    *.gig-comments-fontbox {
+      padding-right: 8px;
+      padding-top: 7px;
+      transition: opacity 0.25s;
+      opacity: 0;
+    }
+
+    *.gig-comments-fontbox ul:after {
+      content: "";
+      width: 8px;
+      height: 13px;
+      display: inline-block;
+      position: absolute;
+      right: 1px;
+      top: 12px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sidebar_box_thub_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-fontbox ul:after {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sidebar_box_thub_x1.png')
+    }
+
+    *.gig-comments-fontbox ul {
+      padding: 2px;
+      width: 69px;
+      background-color: #FFFFFF;
+      border: 1px solid #B0B0B0;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    *.gig-comments-fontbox li {
+      border: 1px none #EEEEEE;
+      width: 33px;
+      height: 33px;
+      display: inline-block;
+      background-position: center;
+      background-repeat: no-repeat
+    }
+
+    *.gig-comments-fontbox *.gig-composebox-font-bold {
+      border-right-style: solid;
+      border-bottom-style: solid;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_bold_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-fontbox *.gig-composebox-font-bold {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_bold_x1.png')
+    }
+
+    *.gig-comments-fontbox *.gig-composebox-font-italic {
+      border-bottom-style: solid;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_italic_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-fontbox *.gig-composebox-font-italic {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_italic_x1.png')
+    }
+
+    *.gig-comments-fontbox *.gig-composebox-font-underline {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_underline_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-fontbox *.gig-composebox-font-underline {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_underline_x1.png')
+    }
+
+    *.gig-comments-fontbox *.gig-composebox-font-bullets {
+      border-left-style: solid;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_align_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-fontbox *.gig-composebox-font-bullets {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rich_Text_align_x1.png')
+    }
+
+    *.gig-comments-mediabox {
+      padding-right: 8px;
+      transition: opacity 0.25s;
+      opacity: 0;
+    }
+
+    *.gig-mediabox-fields {
+      padding: 12px 6px 10px;
+      width: 382px;
+      border: solid 1px #b0b0b0;
+      border-radius: 2px;
+      background-color: #fff;
+      -webkit-box-shadow: -1px 2px 1px rgba(35, 31, 32, .07);
+      -moz-box-shadow: -1px 2px 1px rgba(35, 31, 32, .07);
+      box-shadow: -1px 2px 1px rgba(35, 31, 32, .07);
+    }
+
+    *.gig-mediabox-fields:after {
+      content: "";
+      width: 8px;
+      height: 13px;
+      position: absolute;
+      display: inline-block;
+      right: 1px;
+      top: 12px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sidebar_box_thub_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-mediabox-fields:after {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sidebar_box_thub_x1.png')
+    }
+
+    *.gig-mediabox-url {
+      vertical-align: top;
+      padding-left: 8px;
+      margin-bottom: 10px;
+      margin-right: 5px;
+      width: 307px;
+      height: 28px;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      border: solid 1px #d5d5d5;
+    }
+
+    *.gig-mediabox-url:empty:before {
+      color: #585858;
+      content: attr(data-placeholder);
+    }
+
+    *.gig-mediabox-ok {
+      vertical-align: top;
+      cursor: pointer;
+      text-align: center;
+      display: inline-block;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333333;
+      line-height: 28px;
+      width: 57px;
+      height: 28px;
+      border-radius: 3px;
+      background-color: #f2f2f1;
+      box-shadow: inset 1px 1px #fff;
+      -moz-box-shadow: inset 1px 1px #fff;
+      -webkit-box-shadow: inset 1px 1px #fff;
+      border: solid 1px #d5d5d5;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f5f5f5", endColorstr="#f1f1f0");
+      background: linear-gradient(top, #f5f5f5, #f1f1f0);
+      background: -ms-linear-gradient(top left, #f5f5f5, #f1f1f0);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f0));
+      background: -moz-linear-gradient(top, #f5f5f5, #f1f1f0);
+    }
+
+    *.gig-mediabox-ok:hover {
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efefef", endColorstr=" #e9e9e9");
+      background: linear-gradient(top, #efefef, #e9e9e9);
+      background: -ms-linear-gradient(top left, #efefef, #e9e9e9);
+      background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#e9e9e9));
+      background: -moz-linear-gradient(top, #efefef, #e9e9e9);
+    }
+
+    *.gig-mediabox-text {
+      font-family: arial;
+      font-size: 12px;
+      color: #666666;
+      line-height: 14px;
+    }
+
+    *.gig-composebox-media-display {
+      margin-bottom: 12px;
+    }
+
+    *.gig-media-caption {
+      font-family: arial;
+      font-size: 12px;
+      color: #666666;
+      line-height: 17px;
+      margin: 4px 12px 0px 1px;
+    }
+
+    *.gig-media-caption-text {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      word-wrap: normal;
+    }
+
+    *.gig-media-caption-url {
+      display: block;
+      padding-left: 23px;
+      text-decoration: underline;
+      word-wrap: normal;
+      color: #0796c6;
+      cursor: pointer;
+      font-size: 12px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      vertical-align: text-top;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: contain;
+    }
+
+    *.gig-media-thumbnail {
+      height: 303px;
+    }
+
+    *.gig-media-thumbnail-image {
+      margin: auto;
+      display: block;
+    }
+
+    *.gig-media-overlay {
+      position: relative;
+      top: -303px;
+      height: 0px;
+    }
+
+    *.gig-media-play {
+      display: none;
+      opacity: 0.85;
+      width: 75px;
+      height: 45px;
+      border-radius: 10px;
+      background-color: #545454;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_play_x1.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0 -1px 3px rgba(0, 0, 0, .4), inset 0 1px rgba(255, 255, 255, .29);
+      -moz-box-shadow: 0 -1px 3px rgba(0, 0, 0, .4), inset 0 1px rgba(255, 255, 255, .29);
+      -webkit-box-shadow: 0 -1px 3px rgba(0, 0, 0, .4), inset 0 1px rgba(255, 255, 255, .29);
+    }
+
+    .gig-comments-hires-icons *.gig-media-play {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_play_x1.png');
+    }
+
+    *.gig-media-play:hover {
+      background-color: #666565;
+    }
+
+    *.gig-media-cancel {
+      cursor: pointer;
+      margin-top: -18px;
+      margin-right: 0px;
+      float: right;
+      width: 13px;
+      height: 13px;
+      border-radius: 2px;
+      background-color: #c9c6c6;
+      box-shadow: inset 0 0 9px rgba(0, 0, 0, .26);
+      -moz - box-shadow: inset 0 0 9px rgba(0, 0, 0, .26);
+      -webkit - box-shadow: inset 0 0 9px rgba(0, 0, 0, .26);
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_close_icon_x1.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .gig-comments-hires-icons *.gig-media-cancel {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_close_icon_x1.png');
+    }
+
+    *.gig-media-cancel:hover {
+      background-color: #ebebeb;
+    }
+
+    *.gig-comment-mediaitem {
+      margin-top: 7px;
+    }
+
+    *.gig-comment-content .gig-media-thumbnail-image {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    *.gig-comment-content .gig-media-caption {
+      margin: 8px 12px 0px 0px;
+    }
+
+    *.gig-composebox-media-preview {
+      padding-left: 4px;
+      padding-right: 4px;
+      border-radius: 0px 0px 3px 3px;
+      background-color: #fff;
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+      border: solid 1px #d5d5d5;
+      border-top: none;
+      padding-top: 23px;
+      padding-bottom: 5px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_loader_gif_x1.gif');
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-media-preview {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/media_loader_gif_x1.gif');
+    }
+
+    *.gig-composebox-editor-with-media {
+      border-radius: 3px 3px 0px 0px;
+    }
+
+    *.gig-comments-mediaplayer-dimmer {
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      transition: opacity 0.25s;
+      position: fixed;
+      filter: 'alpha(opacity=50)';
+      background-color: black;
+    }
+
+    *.gig-comments-mediaplayer {
+      top: 50%;
+      left: 50%;
+      transition: opacity 0.25s;
+      padding-left: 18px;
+      padding-right: 18px;
+      position: fixed;
+      background-color: #ffffff;
+      border-radius: 3px;
+    }
+
+    *.gig-comments-mediaplayer-top {
+      height: 14px;
+      padding-top: 3px;
+      padding-bottom-2px;
+      padding-right: 3px;
+    }
+
+    *.gig-comments-mediaplayer-top .gig-media-cancel {
+      margin-right: -18px;
+      padding-right: 0px;
+      margin-top: 0px;
+    }
+
+    *.gig-comments-mediaplayer-bottom {
+      margin: 5px 0px 5px 0px;
+      background-color: #d5d6d6;
+      border-radius: 3px;
+    }
+
+    *.gig-comments-mediaplayer-caption {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      font-size: 13px;
+      font-family: arial;
+      padding-left: 23px;
+      line-height: 17px;
+    }
+
+    *.gig-comments-updates {
+      transition-property: opacity, height;
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      border-radius: 3px;
+      background-color: #90D890;
+    }
+
+    *.gig-comments-updates-visible {
+      opacity: 1;
+      visibility: visible;
+      height: 25px;
+      margin: 5px 0;
+    }
+
+    *.gig-comments-updates-text {
+      text-align: center;
+      line-height: 25px;
+      color: #FFFFFF;
+      font-weight: bold;
+    }
+
+    *.gig-comments-updates-link {
+      cursor: pointer;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+
+    *.gig-comments-updates-full {
+      text-align: right;
+    }
+
+    *.gig-comments-updates-full .gig-comments-updates-link {
+      display: inline-block;
+      line-height: 25px;
+      top: -25px;
+      position: relative;
+      margin-right: 11px;
+      padding-left: 15px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 11px 11px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Pause_Stream_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-updates-full .gig-comments-updates-link {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Pause_Stream_x1.png')
+    }
+
+    *.gig-comments-updates-full .gig-comments-updates-link:hover {
+      background-size: 11px 11px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Pause_Stream_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-updates-full .gig-comments-updates-link:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Pause_Stream_hover_x1.png')
+    }
+
+    *.gig-comments-updates-full.gig-comments-updates-paused .gig-comments-updates-link {
+      background-size: 11px 11px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Resume_Stream_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-updates-full.gig-comments-updates-paused .gig-comments-updates-link {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Resume_Stream_x1.png')
+    }
+
+    *.gig-comments-updates-full.gig-comments-updates-paused .gig-comments-updates-link:hover {
+      background-size: 11px 11px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Resume_Stream_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comments-updates-full.gig-comments-updates-paused .gig-comments-updates-link:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Resume_Stream_hover_x1.png')
+    }
+
+    *.gig-comments-updates-countonly {
+      text-align: center;
+    }
+
+    *.gig-comments-updates-countonly .gig-comments-updates-text {
+      display: inline-block
+    }
+
+    *.gig-comments-updates-countonly .gig-comments-updates-link {
+      display: inline-block;
+      margin-left: 5px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    *.gig-comments-updates-countonly .gig-comments-updates-link:hover {
+      text-decoration: none;
+    }
+
+    *.gig-comment-title * {
+      vertical-align: bottom;
+      display: inline-block;
+    }
+
+    *.gig-comment-title {
+      margin-bottom: 8px;
+    }
+
+    *.gig-comment-rating-drop {
+      margin: 0 3px;
+      cursor: pointer;
+      width: 13px;
+      height: 14px;
+      0 7px 0 2px;
+      vertical-align: bottom;
+      background-repeat: no-repeat;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rating_Drop_Icon_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-rating-drop {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rating_Drop_Icon_x1.png')
+    }
+
+    *.gig-comment-rating-drop:hover,
+    *.gig-comment-rating-drop-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rating_Drop_Icon_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-rating-drop:hover,
+    *.gig-comment-rating-drop-down {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Rating_Drop_Icon_hover_x1.png')
+    }
+
+    *.gig-comment-rating-title,
+    *.gig-comment-rating-value,
+    *.gig-composebox-rating-title,
+    *.gig-composebox-rating-value {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    *.gig-comment-rating-title {
+      margin: 0 10px 0 0;
+      vertical-align: bottom;
+      min-width: 53px;
+    }
+
+    *.gig-composebox-rating-value {
+      margin-left: 3px;
+    }
+
+    *.gig-composebox-rating-title {
+      margin-right: 10px;
+      vertical-align: bottom;
+    }
+
+    *.gig-comment-rating-star,
+    *.gig-composebox-rating-star,
+    *.gig-selfreview-rating-star {
+      display: inline-block;
+      vertical-align: bottom;
+      background-repeat: no-repeat;
+      padding-right: 3px;
+      width: 16px;
+      height: 16px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_gray_small_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-rating-star,
+    .gig-comments-hires-icons *.gig-composebox-rating-star,
+    .gig-comments-hires-icons *.gig-selfreview-rating-star {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_gray_small_x1.png')
+    }
+
+    *.gig-comment-rating-star-full,
+    *.gig-composebox-rating-star-full,
+    *.gig-selfreview-rating-star-full {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_yellow_small_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-rating-star-full,
+    .gig-comments-hires-icons *.gig-composebox-rating-star-full,
+    .gig-comments-hires-icons *.gig-selfreview-rating-star-full {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_yellow_small_x1.png')
+    }
+
+    *.gig-comment-rating-dimensions {
+      display: inline-block;
+      margin-top: 9px;
+      position: absolute;
+      padding: 10px;
+      background-color: #FFFFFF;
+      box-shadow: -1px 2px 1px rgba(35, 31, 32, .07);
+      border: 1px solid #B0B0B0;
+      border-radius: 2px;
+      white-space: nowrap
+    }
+
+    *.gig-comment-rating-dimensions:before {
+      margin-left: -7px;
+      content: "";
+      width: 13px;
+      height: 7px;
+      display: inline-block;
+      position: absolute;
+      top: -7px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sort_dropdown_triangle_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-rating-dimensions:before {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Sort_dropdown_triangle_x1.png')
+    }
+
+    *.gig-composebox-rating-star {
+      cursor: pointer;
+    }
+
+    *.gig-composebox-ratings {
+      margin-bottom: 5px;
+    }
+
+    *.gig-composebox-rating-_overall .gig-composebox-rating-value {
+      margin-left: 0
+    }
+
+    *.gig-composebox-rating-_overall {
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    *.gig-composebox-rating-_overall .gig-composebox-rating-star,
+    *.gig-composebox-rating-_overall.gig-composebox-field-error:hover .gig-composebox-rating-star,
+    *.gig-selfreview-rating-_overall .gig-selfreview-rating-star {
+      padding-right: 4px;
+      width: 21px;
+      height: 20px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_gray_big_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-rating-_overall .gig-composebox-rating-star,
+    .gig-comments-hires-icons *.gig-composebox-rating-_overall.gig-composebox-field-error:hover .gig-composebox-rating-star,
+    .gig-comments-hires-icons *.gig-selfreview-rating-_overall .gig-selfreview-rating-star {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_gray_big_x1.png')
+    }
+
+    *.gig-composebox-rating-_overall .gig-composebox-rating-star-full,
+    *.gig-composebox-rating-_overall.gig-composebox-field-error:hover .gig-composebox-rating-star-full,
+    *.gig-selfreview-rating-_overall .gig-selfreview-rating-star-full {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_yellow_big_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-rating-_overall .gig-composebox-rating-star-full,
+    .gig-comments-hires-icons *.gig-composebox-rating-_overall.gig-composebox-field-error:hover .gig-comments-hires-icons .gig-composebox-rating-star-full,
+    .gig-comments-hires-icons *.gig-selfreview-rating-_overall .gig-selfreview-rating-star-full {
+      background-size: contain;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_yellow_big_x1.png')
+    }
+
+    *.gig-composebox-rating-_overall.gig-composebox-field-error {
+      border: none;
+    }
+
+    *.gig-composebox-rating-_overall.gig-composebox-field-error .gig-composebox-rating-star {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_red_big_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-composebox-rating-_overall.gig-composebox-field-error .gig-composebox-rating-star {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Star_red_big_x1.png')
+    }
+
+    *.gig-comment-colored-background {
+      border-radius: 4px;
+      padding: 3px 6px 6px 6px;
+    }
+
+    div.gig-comment-pinned-background {
+      background-color: #fffcd2;
+    }
+
+    *.gig-comment-withBadges *.gig-comment-header-right {
+      text-align: right;
+    }
+
+    *.gig-comment-withBadges *.gig-comment-username {
+      margin-bottom: 5px;
+    }
+
+    *.gig-composebox-withBadges *.gig-composebox-logout {
+      display: block;
+    }
+
+    *.gig-composebox-withBadges *.gig-composebox-header-right {
+      text-align: right;
+      margin-bottom: 4px;
+    }
+
+    *.gig-composebox-withBadges *.gig-composebox-title {
+      position: relative;
+      bottom: 7px;
+    }
+
+    *.gig-comment-commentBadge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      background-repeat: no-repeat;
+      padding-right: 22px;
+      background-position: right;
+      height: 17px;
+      line-height: 17px;
+    }
+
+    *.gig-comment-userBadge {
+      margin-bottom: 5px;
+      margin-right: 6px;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: bold;
+      line-height: 15px;
+    }
+
+    *.gig-badge-border {
+      border: 1px solid;
+      border-radius: 2px;
+      padding: 0px 5px;
+    }
+
+    *.gig-comment .gig-comment-editbox {
+      display: none;
+      background-color: #F6F6F6;
+      padding: 4px 6px 4px 6px;
+      margin-left: -41px;
+    }
+
+    *.gig-comment .gig-comment-editbox .gig-composebox-ratings * {
+      color: #585858;
+    }
+
+    *.gig-comment .gig-comment-editbox-open {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    *.gig-comment-editbox *.gig-composebox-close {
+      display: inline-block;
+      margin-left: 5px;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .gig-comments-hires-icons *.gig-comment-editbox *.gig-composebox-close {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/close_icon_x1.png');
+      background-size: contain;
+    }
+
+    *.gig-comment-editbox *.gig-composebox-close:hover {
+      background-color: #ebebeb;
+    }
+
+    *.gig-comment-edited {
+      font-size: 11px;
+      display: inline-block;
+      margin: 2px 0 0 5px;
+      float: right;
+      font-style: italic;
+      color: #999999
+    }
+
+    *.gig-comment-data-removed {
+      margin-left: -41px;
+    }
+
+    *.gig-comment-data-removed .gig-comment-content {
+      padding-left: 0px;
+    }
+
+    *.gig-comment-data-removed .gig-comment-body {
+      color: #999999;
+      font-size: 12px;
+      font-style: italic;
+      line-height: 16.5px;
+    }
+
+    *.gig-comment-data-removed .gig-comment-footer {
+      margin: 4px 0px 10px;
+      padding-left: 0px;
+    }
+
+    *.gig-comment-data-removed .gig-comment-footer .gig-comment-footer-left .gig-comment-flag {
+      display: none;
+    }
+
+    *.gig-comment-data-removed .gig-comment-footer-right,
+    *.gig-comment-data-removed .gig-comment-header {
+      display: none;
+    }
+
+    *.gig-comment-data-removed .gig-comment-replyLink,
+    *.gig-comment-data-removed .gig-comment-likeLink,
+    *.gig-comment-data-removed .gig-comment-shareLink,
+    *.gig-comment-data-removed .gig-comment-deleteLink,
+    *.gig-comment-data-removed .gig-comment-editLink {
+      display: none;
+    }
+
+    *.gig-comment-data-removed .gig-comment-content {
+      transition: none;
+      -webkit-transition: none
+    }
+
+    *.gig-comment-data-removed .gig-comment-content {
+      transition: none;
+      -webkit-transition: none
+    }
+
+    *.gig-comment-title-removed {
+      display: none;
+    }
+
+    *.gig-comment-photo-removed {
+      display: none;
+    }
+
+    .gig-comments-container * {
+      font-size: 12px;
+      transition: none 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      -webkit-transition: none 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    }
+
+    *.gig-comments-linksContainer li:hover,
+    *.gig-comments-linksContainer a:hover {
+      text-decoration: underline;
+      text-decoration-skip: all
+    }
+
+    *.gig-comment-vote-pos:hover {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-pos:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_hover_x1.png')
+    }
+
+    *.gig-comment-vote-neg:hover {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_hover_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-neg:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_hover_x1.png')
+    }
+
+    *.gig-comment-footer li:hover,
+    *.gig-comment-repliesArrow:hover div {
+      text-decoration: underline
+    }
+
+    *.gig-comment-self-data:hover *.gig-comment-flag,
+    *.gig-comment-flag-visible {
+      visibility: visible;
+    }
+
+    *.gig-comment-vote-pos-down:hover {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_pressed_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-pos-down:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_up_pressed_x1.png')
+    }
+
+    *.gig-comment-vote-neg-down:hover {
+      background-size: 14px 14px;
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_pressed_x1.png')
+    }
+
+    .gig-comments-hires-icons *.gig-comment-vote-neg-down:hover {
+      background-image: url('https://cdns2.gigya.com/gs/i/comments2/Thumbs_down_pressed_x1.png')
+    }

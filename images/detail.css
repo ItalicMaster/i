@@ -1,0 +1,828 @@
+.none {display: none;}
+
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+audio[controls],canvas,video{display:inline-block}
+html{font-size:100%;-webkit-overflow-scrolling:touch;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0;font-size:13px;line-height:1.231;text-align:left;background-color:#fff}
+.ie body,.ie button,.ie input,.ie select,.ie textarea{font-family:Arial,Helvetica,"Lucida Grande",sans-serif}
+::-moz-selection{background:#dedede;color:#000;text-shadow:none}
+::selection{background:#dedede;color:#000;text-shadow:none}
+a:active,a:focus,a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:700}
+dfn{font-style:italic}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+ins{background:#ff9;color:#000;text-decoration:none}
+mark{background:#ff0;color:#000;font-style:italic;font-weight:700}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:after,q:before{content:"";content:none}
+small{font-size:85%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+ol,ul{list-style:none;margin:0;padding:0;list-style-type:none}
+img{width:100%;border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:0;margin:0;padding:0}
+legend{border:0;padding:0}
+label{cursor:pointer}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}
+button,input{line-height:normal}
+button,input[type=button],input[type=reset],input[type=submit]{cursor:pointer;-webkit-appearance:button}
+input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box}
+input[type=search]{-webkit-box-sizing:content-box;box-sizing:content-box}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+input:invalid,textarea:invalid{background-color:#f0dddd}
+table{border-collapse:collapse;border-spacing:0}
+.clearfix{zoom:1}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.generic-debug{display:-moz-inline-stack;display:inline-block;zoom:1;background-color:#f6d200;padding:3px;border:2px solid #907b00;clip:inherit;position:inherit!important;border-radius:3px;font-size:16px!important}
+.assistive-text{position:absolute!important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}
+.reveal-assisitive .assistive-text{display:-moz-inline-stack;display:inline-block;zoom:1;background-color:#f6d200;padding:3px;border:2px solid #907b00;clip:inherit;position:inherit!important;border-radius:3px;font-size:16px!important}
+.ir{display:block;border:0;text-indent:-999em;overflow:hidden;background-color:transparent;background-repeat:no-repeat;text-align:left;direction:ltr}
+.ir br{display:none}
+.display-inlineblock{display:-moz-inline-stack;display:inline-block;zoom:1}
+.left{float:left}
+.right{float:right}
+.placeholder{color:#bfbfbf}
+#network-extra-container{zoom:1;width:978px;position:absolute;top:8px;left:30px;padding:5px 0;border-bottom:1px solid #ddd;border-top:1px solid #eee;z-index:102}
+#network-extra-container:after,#network-extra-container:before{content:"";display:table}
+#network-extra-container:after{clear:both}
+.has_domination #network-extra-container{left:10px}
+#network-extra-container .aggiornato-container{position:absolute;width:300px;text-align:center;top:12px;left:50%;margin-left:-150px}
+#network-extra-container .aggiornato-container p{font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#999;zoom:1}
+#network-extra-container .aggiornato-container p:after,#network-extra-container .aggiornato-container p:before{content:"";display:table}
+#network-extra-container .aggiornato-container p:after{clear:both}
+#network-extra-container .aggiornato-container p time{color:#ff7808}
+#network-extra-container .aggiornato-container p span{display:none}
+#network-extra-container .network-list-item>a{-webkit-transition:none;transition:none;padding:0 20px 0 0;margin:5px 5px 5px 0;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-158px -7px}
+#network-extra-container .network-list-item>a.selected{background-position:-459px -7px}
+#network-extra-container .network-espresso a{margin:5px 10px;padding:0;text-indent:-9999px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:0 -46px;width:77px;height:17px}
+#network-extra-container .network-espresso a:hover{opacity:.5}
+#network-extra-container .network-inchieste{border:none}
+#network-extra-container .network-inchieste a{margin:5px 10px;padding:0;text-indent:-9999px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:0 -80px;width:90px;height:15px}
+#network-extra-container .network-inchieste a:hover{opacity:.5}
+.network-list-container{position:relative;background:#eee;border:4px solid #eee}
+.network-list-container:after,.network-list-container:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.network-list-container:after{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:4px;left:5%;margin-left:-4px}
+.network-list-container:before{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;left:5%;margin-left:-9px}
+.slim-header-annunci-lavori{float:right}
+.slim-header-annunci-lavori ul li{float:left;margin-left:10px}
+.slim-header-annunci-lavori ul li a{text-transform:uppercase;color:#333;line-height:28px}
+.slim-header-annunci-lavori ul li a:hover{color:#999}
+.header-search-container{float:right;margin:-5px 15px 0 0}
+.header-search-container form{position:relative}
+.header-search-container form input{width:150px;border-radius:2px;color:#666;border-radius:0;border-width:0;border-bottom:1px solid #e1e1e1;background-color:#fff}
+.header-search-container form input:focus{border-radius:0;border-width:0;border-bottom:1px solid #999}
+.header-search-container form button{cursor:pointer;text-indent:-9999px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-222px -280px;background-color:transparent;width:18px;display:block;height:18px;border:none;position:absolute;right:0;top:5px}
+.network-container{width:390px;float:left}
+.network-container ul{list-style:none;zoom:1}
+.network-container ul:after,.network-container ul:before{content:"";display:table}
+.network-container ul:after{clear:both}
+.network-container ul li{float:left;height:28px}
+.network-container ul .network-list-container{display:none;background:#fff;position:absolute;top:46px;width:958px;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);border:solid 1px #e1e1e1;padding:10px}
+.network-container ul .network-list-container .network-list-wrapper{overflow:hidden;clear:both}
+.network-container ul .network-list-container section{float:left;padding-bottom:100000px;margin-bottom:-100000px}
+.network-container ul .network-list-container section h1{text-transform:uppercase;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;margin-bottom:5px}
+.network-container ul .network-list-container section.list-01{width:370px;padding-right:10px;border-right:1px solid #eee}
+.network-container ul .network-list-container section.list-01 div{float:left;width:50%}
+.network-container ul .network-list-container section.list-02{width:180px;padding-left:10px;padding-right:10px;border-right:1px solid #eee;height:100%}
+.network-container ul .network-list-container section dt{font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;text-transform:uppercase;color:#333;margin-top:5px}
+.network-container ul .network-list-container section.list-04{width:170px;padding-left:10px;height:100%}
+.network-container ul .network-list-container section a{padding:3px 0;border:none;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:none;color:#2772c5}
+.network-container ul .network-list-container section a:hover{color:#333}
+.network-container ul .network-list-container .list-03{float:left;padding-bottom:100000px;margin-bottom:-100000px;width:175px;padding-left:10px;padding-right:10px;border-right:1px solid #eee;height:100%}
+.network-container ul .network-list-container .list-03 section{float:none;padding-bottom:0;margin-bottom:0}
+.network-container ul .network-list-container .list-03 section.servizi-tv-consumi{margin-top:20px}
+.network-container ul .network-list-container .close-network{border:none;display:block;padding:0;width:20px;height:22px;position:absolute;top:0;right:3px;text-indent:-9999px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:center -439px}
+.network-container ul .network-list-container .close-network:hover{background-color:transparent;opacity:.8}
+.network-container ul .network-list-container.hide{display:none}
+.network-container ul li{border-right:1px solid #e1e1e1}
+.network-container ul li a{font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:uppercase;color:#666;padding:9px 13px 9px 15px;display:block}
+#network-ge-link{width:72px;padding-left:0;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-160px 2px}
+.extra-container{float:right;width:474px;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666}
+.extra-container .account-data-container{line-height:28px;position:relative;margin-left:10px;float:right;border-left:1px solid #e1e1e1;padding-left:9px}
+.extra-container .account-data-container>a{line-height:28px;color:#666}
+.extra-container .account-data-container .header-logged{zoom:1;margin-top:-2px;background-position:-122px 1px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat}
+.extra-container .account-data-container .header-logged:after,.extra-container .account-data-container .header-logged:before{content:"";display:table}
+.extra-container .account-data-container .header-logged:after{clear:both}
+.extra-container .account-data-container .header-logged.open{background-position:-424px -3px}
+.extra-container .account-data-container .account-container{zoom:1}
+.extra-container .account-data-container .account-container:after,.extra-container .account-data-container .account-container:before{content:"";display:table}
+.extra-container .account-data-container .account-container:after{clear:both}
+.extra-container .account-data-container .account-container:hover{opacity:.8}
+.extra-container .account-data-container .account-container p{float:left;font:12px/30px Arial,'Helvetica Neue',Helvetica,sans-serif;margin-right:5px;cursor:pointer}
+.extra-container .account-data-container .header-logged-link{display:none;position:absolute;background:#eee;border:4px solid #eee;left:-41px;top:41px;width:165px;background-color:#fff;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);border:solid 1px #e1e1e1}
+.extra-container .account-data-container .header-logged-link:after,.extra-container .account-data-container .header-logged-link:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.extra-container .account-data-container .header-logged-link:after{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:4px;right:20%;margin-left:-4px}
+.extra-container .account-data-container .header-logged-link:before{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;right:20%;margin-left:-9px}
+.extra-container .account-data-container .header-logged-link a{color:#333;border-bottom:1px solid #eee;padding:5px 0;margin:0 5px;line-height:18px;display:block;clear:both}
+.extra-container .account-data-container .header-logged-link a.last{border:none}
+.extra-container .account-data-container .header-logged-link a:hover{background-color:#eee;padding:5px 5px;margin:0}
+.extra-container .account-data-container.open .header-logged-link{display:block}
+.extra-container .account-data-container .avatar-container{position:relative;float:right;height:29px}
+.extra-container .account-data-container .avatar-container img{width:30px;height:30px;cursor:pointer}
+.extra-container .account-data-container .avatar-container .notification{top:-5px;left:-8px;background:#e3051a;position:absolute;font:10px/10px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#fff;border-radius:50%;min-width:10px;text-align:center;padding:3px}
+.page-header{margin-top:75px}
+.page-header .logo-container{zoom:1}
+.page-header .logo-container:after,.page-header .logo-container:before{content:"";display:table}
+.page-header .logo-container:after{clear:both}
+.page-header .logo-container .rep-logo{display:none}
+.page-header .logo-container .section-logo{font:40px/83px lato-regular,Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:capitalize}
+.main-nav{clear:both;text-transform:uppercase;border-top:1px solid #dedede;border-bottom:2px solid #000}
+.main-nav ul{zoom:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between; flex-wrap: wrap;}
+.main-nav ul:after,.main-nav ul:before{content:"";display:table}
+.main-nav ul:after{clear:both}
+.main-nav li{border-top:1px transparent solid;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;text-align:center}
+.main-nav li a{color:#616161;display:block;font:13px/40px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700}
+.main-nav li.selected,.main-nav li:hover{border-top-color:#2772c5;margin-top:-1px;padding-top:1px}
+.main-nav li.selected a,.main-nav li:hover a{color:#2772c5;-webkit-transition:none;transition:none}
+.main-nav li.has-submenu{-webkit-transition:-webkit-transform .3s ease;transition:-webkit-transform .3s ease;transition:transform .3s ease;transition:transform .3s ease, -webkit-transform .3s ease;-webkit-transform:rotate(0);transform:rotate(0)}
+.main-nav li.has-submenu:after,.main-nav li.has-submenu:before{content:"";position:absolute;top:50%;z-index:100;height:2px;width:8px;background-color:#616161;-webkit-transition:width .3s,-webkit-transform .3s;transition:width .3s,-webkit-transform .3s;transition:width .3s,transform .3s;transition:width .3s,transform .3s,-webkit-transform .3s}
+.main-nav li.has-submenu:before{right:8px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.main-nav li.has-submenu:after{right:3px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+.main-nav li.has-submenu.selected:before{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+.main-nav li.has-submenu.selected:after{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.main-nav li.has-submenu{position:relative;z-index:101}
+.main-nav li.has-submenu.selected{background-color:#fff}
+.main-nav li.has-submenu>div{z-index:10;display:none;background-color:#fff;width:100%;padding:15px;position:absolute;top:41px;right:0;-webkit-box-shadow:0 3px 3px rgba(0,0,0,.2);box-shadow:0 3px 3px rgba(0,0,0,.2)}
+.main-nav li.has-submenu>div a{background:0 0;color:#333;font:12px/22px Arial,'Helvetica Neue',Helvetica,sans-serif;padding:0;text-align:left;border:none!important}
+.main-nav li.has-submenu>div a:hover{color:#2772c5}
+.navigation-container{border-bottom:1px solid #dedede}
+#home .navigation-container{padding-bottom:0}
+.navigation-container .edizioni-locali{margin-bottom:10px;zoom:1;}
+.navigation-container .edizioni-locali:after,.navigation-container .edizioni-locali:before{content:"";display:table}
+.navigation-container .edizioni-locali:after{clear:both}
+.navigation-container .edizioni-locali ul li{float:left;margin-right:10px}
+.navigation-container .edizioni-locali ul li .section-rep-bari,.section-rep-napoli .navigation-container .edizioni-locali ul li,.section-rep-palermo .navigation-container .edizioni-locali ul li{margin-right:0}
+.navigation-container .edizioni-locali ul li a{font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:uppercase;color:#000}
+.navigation-container .edizioni-locali ul li a:hover{text-decoration:underline}
+.navigation-container .meteo-header{margin-top:-5px;float:right;padding:6px 35px 0 14px;font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;text-transform:uppercase;color:#777;background-position:-243px -85px;border-left:1px solid #e1e1e1;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat}
+.navigation-container .meteo-header:hover{text-decoration:underline}
+.navigation-container .repubblica-su{position:relative;z-index:2;float:right;margin-top:5px;padding:0;height:28px;width:148px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:83px -112px}
+.navigation-container .repubblica-su strong{display:block;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;cursor:pointer;padding:6px 0;background-position:-90px -1px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat}
+.navigation-container .repubblica-su.selected{background-position:-215px -112px}
+.navigation-container .repubblica-su.selected strong{background-position:-392px -1px;color:#000}
+.navigation-container .repubblica-su ul{z-index:2;display:none;position:absolute;top:41px;left:-632px;top:35px;padding:10px;width:848px;height:300px;background-color:#fff;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);border:solid 1px #e1e1e1}
+.navigation-container .repubblica-su ul:after,.navigation-container .repubblica-su ul:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.navigation-container .repubblica-su ul:after{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:4px;right:10%;margin-left:-4px}
+.navigation-container .repubblica-su ul:before{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;right:10%;margin-left:-9px}
+.navigation-container .repubblica-su ul li{display:none;text-align:center;border-right:1px solid #eee;zoom:1}
+.navigation-container .repubblica-su ul li:after,.navigation-container .repubblica-su ul li:before{content:"";display:table}
+.navigation-container .repubblica-su ul li:after{clear:both}
+.navigation-container .repubblica-su ul li a{color:#fff}
+.navigation-container .repubblica-su ul li p{margin-bottom:15px;font-size:13px;line-height:15px;padding:0 20px}
+.navigation-container .repubblica-su ul li.last{border-right:0}
+.navigation-container .repubblica-su ul.load-images li{float:left;width:280px;height:300px}
+.navigation-container .repubblica-su ul.load-images li.last{border-right:0}
+.navigation-container .repubblica-su ul.load-images li a{width:176px;height:200px;text-indent:-9999px;display:block;margin:0 auto;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header-extra.jpg);background-repeat:no-repeat}
+.navigation-container .repubblica-su ul.load-images li a.button{width:100px;text-indent:0;background:none repeat scroll 0 0 #0088c0;border-radius:3px 3px 3px 3px;cursor:pointer;height:30px;position:relative;border:0;color:#fff;font-size:12px;line-height:28px;display:-moz-inline-stack;display:inline-block;zoom:1}
+.navigation-container .repubblica-su ul.load-images li a.button:hover{opacity:.8}
+.navigation-container .repubblica-su ul.load-images li.repubblica-piu a{width:193px;background-position:0 0}
+.navigation-container .repubblica-su ul.load-images li.repubblica-piu a.button{width:100px}
+.navigation-container .repubblica-su ul.load-images li.repubblica-piu a.orange{width:130px;background:#eb310c}
+.navigation-container .repubblica-su ul.load-images li.repubblica-mobile a{background-position:-212px 0}
+.navigation-container .repubblica-su ul.load-images li.repubblica-extra a{background-position:-395px 0}
+.bottom-navigation-container{zoom:1}
+.bottom-navigation-container:after,.bottom-navigation-container:before{content:"";display:table}
+.bottom-navigation-container:after{clear:both}
+.bottom-navigation-container .topics-container{width:642px;float:left;padding:5px 0}
+.bottom-navigation-container .topics-container ul{zoom:1;float:left;width:100%}
+.bottom-navigation-container .topics-container ul:after,.bottom-navigation-container .topics-container ul:before{content:"";display:table}
+.bottom-navigation-container .topics-container ul:after{clear:both}
+.bottom-navigation-container .topics-container ul li{float:left;margin-right:5px;display:block}
+.bottom-navigation-container .topics-container ul li a{background:#f2f2f2;font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666;padding:5px 7px 4px 7px;display:block}
+.bottom-navigation-container .topics-container ul li a:hover{background:#fff;color:#087bbb}
+.bottom-navigation-container .social-list-container{position:relative;display:block;float:right;width:105px;height:28px;margin-top:5px;padding-left:5px;margin-left:5px;border-left:1px solid #e1e1e1;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-351px -37px}
+.bottom-navigation-container .social-list-container h1{line-height:28px;cursor:pointer;text-indent:-9999px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-139px 0}
+.bottom-navigation-container .social-list-container.selected{background-position:-218px -37px}
+.bottom-navigation-container .social-list-container.selected h1{background-position:-440px 0}
+.bottom-navigation-container .social-list-container:hover{background-position:-218px -37px}
+.bottom-navigation-container .social-list-container .social-container{z-index:2;position:relative;background:#eee;border:4px solid #eee;left:-260px;top:14px;display:none;width:362px;height:37px;background-color:#fff;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);border:solid 1px #e1e1e1}
+.bottom-navigation-container .social-list-container .social-container:after,.bottom-navigation-container .social-list-container .social-container:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.bottom-navigation-container .social-list-container .social-container:before{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;right:5%;margin-left:-9px}
+.edizioni-locali ul li{padding:0 5px}
+.edizioni-locali ul li.metropoli-milano-list-item div a,.edizioni-locali ul li.metropoli-roma-list-item div a,.edizioni-locali ul li.municipi-milano-list-item div a,.edizioni-locali ul li.municipi-roma-list-item div a,.edizioni-locali ul li.regioni-milano-list-item div a,.edizioni-locali ul li.regioni-roma-list-item div a{padding:3px 0;border:none;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:none;color:#2772c5;display:block}
+.edizioni-locali ul li.metropoli-milano-list-item div a:hover,.edizioni-locali ul li.metropoli-roma-list-item div a:hover,.edizioni-locali ul li.municipi-milano-list-item div a:hover,.edizioni-locali ul li.municipi-roma-list-item div a:hover,.edizioni-locali ul li.regioni-milano-list-item div a:hover,.edizioni-locali ul li.regioni-roma-list-item div a:hover{color:#333;text-decoration:none}
+.edizioni-locali h1,.edizioni-locali strong{float:left;margin-right:10px}
+.metropoli-milano-list-item,.metropoli-roma-list-item,.municipi-roma-list-item,.regioni-milano-list-item,.regioni-roma-list-item{position:relative;border-right:1px solid #ddd}
+.metropoli-milano-list-item>a,.metropoli-roma-list-item>a,.municipi-roma-list-item>a,.regioni-milano-list-item>a,.regioni-roma-list-item>a{-webkit-transition:none;transition:none;padding:0 20px 0 0;margin:5px 5px 5px 0;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-184px -7px;display:block;margin-top:1px;height:11px}
+.metropoli-milano-list-item>a.selected,.metropoli-roma-list-item>a.selected,.municipi-roma-list-item>a.selected,.regioni-milano-list-item>a.selected,.regioni-roma-list-item>a.selected{background-position:-486px -7px}
+.metropoli-milano-list-item a:hover,.metropoli-roma-list-item a:hover,.municipi-roma-list-item a:hover,.regioni-milano-list-item a:hover,.regioni-roma-list-item a:hover{text-decoration:none!important}
+.metropoli-roma-list-item>a{background-position:-79px -7px;width:140px}
+.metropoli-roma-list-item>a.selected{background-position:-381px -7px}
+.metropoli-milano-list-item{border-left:1px solid #ddd}
+.metropoli-milano-list-item>a{background-position:-68px -7px;padding-left:10px;width:140px}
+.metropoli-milano-list-item>a.selected{background-position:-370px -7px}
+.regioni-milano-list-item>a,.regioni-roma-list-item>a{background-position:-161px -7px}
+.regioni-milano-list-item>a.selected,.regioni-roma-list-item>a.selected{background-position:-462px -7px}
+.metropoli-milano-list-container,.metropoli-roma-list-container,.municipi-roma-list-container,.regioni-milano-list-container,.regioni-roma-list-container{display:none;background:#fff;position:absolute;z-index:999;top:22px;width:225px;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2);border:solid 1px #e1e1e1;padding:10px}
+.metropoli-milano-list-container:after,.metropoli-milano-list-container:before,.metropoli-roma-list-container:after,.metropoli-roma-list-container:before,.municipi-roma-list-container:after,.municipi-roma-list-container:before,.regioni-milano-list-container:after,.regioni-milano-list-container:before,.regioni-roma-list-container:after,.regioni-roma-list-container:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}
+.metropoli-milano-list-container:before,.metropoli-roma-list-container:before,.municipi-roma-list-container:before,.regioni-milano-list-container:before,.regioni-roma-list-container:before{border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;left:8%;margin-left:-9px}
+.metropoli-milano-list-container .menu-list-wrapper,.metropoli-roma-list-container .menu-list-wrapper,.municipi-roma-list-container .menu-list-wrapper,.regioni-milano-list-container .menu-list-wrapper,.regioni-roma-list-container .menu-list-wrapper{overflow:hidden;clear:both}
+.metropoli-milano-list-container .menu-list-wrapper div,.metropoli-roma-list-container .menu-list-wrapper div,.municipi-roma-list-container .menu-list-wrapper div,.regioni-milano-list-container .menu-list-wrapper div,.regioni-roma-list-container .menu-list-wrapper div{float:left;width:50%}
+.regioni-milano-list-container,.regioni-roma-list-container{width:90px}
+.metropoli-roma-list-container{width:120px}
+.metropoli-roma-list-container:before{left:50%}
+.metropoli-roma-list-container .menu-list-wrapper div{float:left;width:120px}
+.metropoli-milano-list-container{width:250px}
+.metropoli-milano-list-container:before{left:30%}
+.regioni-milano-list-container:before,.regioni-roma-list-container:before{left:28%}
+.has_top #adv-Top{margin:10px auto;text-align:center;border:none;padding:0}
+.has_domination #adv-Top{margin:0 auto;display:block!important}
+.has_topleft #adv-Strip{margin:5px -6px 0;border:none;text-align:center;border-bottom:1px solid #ddd;line-height:normal}
+.has_middle1 #adv-Middle1{margin-bottom:40px}
+.has_middle2 #adv-Middle2{margin-bottom:30px}
+.has_middle3 #adv-Middle3{margin-bottom:30px}
+.has_x40 #adv-x40{margin-bottom:30px}
+.has_right #adv-Right{margin-bottom:30px}
+.has_piede #adv-Piede{margin:0 auto;width:998px;background:#fff;padding:20px 0}
+#adv-neo-Rect1,#adv-neo-Rect2,#adv-neo-Rect3,#adv-vetr{margin-bottom:30px}
+.adv-zbanner{zoom:1;margin-bottom:30px}
+.adv-zbanner:after,.adv-zbanner:before{content:"";display:table}
+.adv-zbanner:after{clear:both}
+#detail .adv-zbanner{max-width:558px;margin-left:84px}
+#detail .adv-zbanner iframe{width:558px!important}
+#detail.section-live-news .adv-zbanner{width:642px;margin-left:0}
+#detail.section-live-news .adv-zbanner iframe{width:642px!important}
+.shared-content-vetrina{display:none;padding:3px 5px;margin-bottom:30px;font-size:12px;color:#9b9b9b;text-align:right;zoom:1}
+.shared-content-vetrina:after,.shared-content-vetrina:before{content:"";display:table}
+.shared-content-vetrina:after{clear:both}
+.shared-content-vetrina hr{display:none}
+.shared-content-vetrina br{height:5px}
+.shared-content-vetrina-whitebox{zoom:1}
+.shared-content-vetrina-whitebox:after,.shared-content-vetrina-whitebox:before{content:"";display:table}
+.shared-content-vetrina-whitebox:after{clear:both}
+.shared-content-vetrina-whitebox a,.shared-content-vetrina-whitebox a:visited{display:block;float:left;padding:6px 0 0 0;margin:6px 0 0 0;font:12px/14px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525;text-align:left}
+.shared-content-vetrina-whitebox a:hover{text-decoration:none}
+.shared-content-vetrina-whitebox img{float:left;margin-right:5px}
+.adv-ipad{position:fixed;right:30px;bottom:0;z-index:9999}
+.adv-ipad a{display:block;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-adv-ipad.png);background-repeat:no-repeat;top:0;left:0;width:327px;height:239px;text-indent:-9999px;position:relative}
+.adv-ipad #close-adv-ipad{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-adv-ipad.png);background-repeat:no-repeat;background-position:-331px -206px;display:block;width:33px;height:33px;position:absolute;right:15px;top:58px}
+.has_middle1 #adv-Middle1,.has_middle2 #adv-Middle2,.has_middle3 #adv-Middle3,.has_piede #adv-Piede,.has_top1 #adv-Top1,.has_top2 #adv-Top2,.has_topleft #adv-TopLeft,.has_x36 #adv-x36,.has_x37 #adv-x37,.has_x38 #adv-x38,.has_x39 #adv-x39,.has_x40 #adv-x40,body:not(.has_domination).has_top #adv-Top{background-color:#f7f7f7;padding:0 0 12px}
+.has_middle1 #adv-Middle1:before,.has_middle2 #adv-Middle2:before,.has_middle3 #adv-Middle3:before,.has_piede #adv-Piede:before,.has_top1 #adv-Top1:before,.has_top2 #adv-Top2:before,.has_topleft #adv-TopLeft:before,.has_x36 #adv-x36:before,.has_x37 #adv-x37:before,.has_x38 #adv-x38:before,.has_x39 #adv-x39:before,.has_x40 #adv-x40:before,body:not(.has_domination).has_top #adv-Top:before{content:"informazione pubblicitaria";display:block;font-size:11px;line-height:22px;color:#999;text-align:center}
+body{background:#fff;font:14px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525;position:relative}
+#container{position:relative;zoom:1;max-width:978px;margin:0 auto;padding:0 10px;background-color:#fff}
+#container:after,#container:before{content:"";display:table}
+#container:after{clear:both}
+.has_domination #container{padding:10px 10px 0 10px}
+.main-content{zoom:1;float:left;padding-top:15px}
+.main-content:after,.main-content:before{content:"";display:table}
+.main-content:after{clear:both}
+.sub-content-zone{zoom:1;margin:-15px -14px 0 0;clear:both}
+.sub-content-zone:after,.sub-content-zone:before{content:"";display:table}
+.sub-content-zone:after{clear:both}
+.sub-content-1{width:390px;float:left;background:#fff;padding:15px 15px 0 0}
+.sub-content-2{width:222px;float:left;margin:15px 0 15px 15px}
+.bottom-zone{zoom:1;clear:both;border-top:1px #ddd solid}
+.bottom-zone:after,.bottom-zone:before{content:"";display:table}
+.bottom-zone:after{clear:both}
+.bottom-zone .bottom-content-1,.bottom-zone .bottom-content-2{width:306px;float:left}
+.bottom-zone .bottom-content-1{margin-right:14px;padding-right:15px;border-right:1px solid #ddd}
+.bottom-wrapper{zoom:1;margin-right:-15px;padding:0 15px 15px 0;border-bottom:1px solid #ccc}
+.bottom-wrapper:after,.bottom-wrapper:before{content:"";display:table}
+.bottom-wrapper:after{clear:both}
+@media screen and (max-width: 600px) {
+	.sidebar-content {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 15px auto 5px 20px;
+	  display: none;
+	}!important
+}
+
+@media screen and (min-width: 600px) {
+	.sidebar-content {
+        width:300px;padding-top:15px;float:right
+	}
+}
+.tabber{overflow:hidden;zoom:1;width:100%;margin-bottom:-1px}
+.tabber:after,.tabber:before{content:"";display:table}
+.tabber:after{clear:both}
+.tabber li{display:table-cell;width:1%;float:none;margin-bottom:-1px;border:1px solid #fff;border-bottom:none;border-top:none;padding-top:1px}
+.tabber li:first-child{margin-left:0;border-left:none}
+.tabber li:last-child{border-right:none}
+.tabber li a,.tabber li a:visited{padding:10px 10px;padding-bottom:100010px;margin-bottom:-100000px;display:block;background:#f2f2f2;text-transform:uppercase;border-left:1px solid transparent;border-right:1px solid transparent;color:#919191;font:12px/12px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;-webkit-transition:none;transition:none;text-align:center}
+.tabber li:hover{border-top:none}
+.tabber li.active,.tabber li.activeli{border-top:none;background:#60aadb}
+.tabber li.active a,.tabber li.active a:visited,.tabber li.activeli a,.tabber li.activeli a:visited{color:#444;background:#fff;border-left:1px solid #ddd;border-right:1px solid #ddd;position:relative}
+.tabber li:hover{border-top:none}
+.tabber li a:hover{border-top:none;color:#444;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
+.ie7 .tabber,.ie8 .tabber{width:auto;margin-bottom:0}
+.ie7 .tabber li,.ie8 .tabber li{width:auto;display:inline;border:none;float:left;margin-left:4px}
+.ie7 .tabber li.first,.ie7 .tabber li:first-child,.ie8 .tabber li.first,.ie8 .tabber li:first-child{margin-left:0}
+.ie7 .tabber li a,.ie7 .tabber li a:visited,.ie8 .tabber li a,.ie8 .tabber li a:visited{text-align:left}
+.ie7 .tabber li:hover,.ie8 .tabber li:hover{background:0 0}
+.ie7 .tabber li.active,.ie7 .tabber li.activeli,.ie8 .tabber li.active,.ie8 .tabber li.activeli{border-top:1px solid #60aadb;background:0 0}
+.ie7 .tabber li.active a,.ie7 .tabber li.active a:visited,.ie7 .tabber li.activeli a,.ie7 .tabber li.activeli a:visited,.ie8 .tabber li.active a,.ie8 .tabber li.active a:visited,.ie8 .tabber li.activeli a,.ie8 .tabber li.activeli a:visited{position:static}
+.ie7 .tabber li:hover,.ie8 .tabber li:hover{border-top:1px solid #60aadb}
+.panes{border:1px #ddd solid;margin-bottom:30px}
+.panes .tab{padding:0 10px}
+.panes#spalla-panes .tab{display:none}
+.panes#spalla-panes .tab.active{display:block}
+.panes article{zoom:1}
+.panes article header{margin:0 10px 15px 10px}
+.panes article img{margin:0 0 5px -1px}
+.panes article .occhiello{font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666;text-transform:uppercase;margin-bottom:5px}
+.panes article h1,.panes article h1 a,.panes article h1 a:visited{font:21px/23px lato-bold,Arial,'Helvetica Neue',Helvetica,sans-serif;color:#111;margin-bottom:5px}
+.panes article h1 a em.author,.panes article h1 a:visited em.author,.panes article h1 em.author{font:11px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666}
+.panes article h1 a strong,.panes article h1 a:visited strong,.panes article h1 strong{font-weight:inherit;color:#087bbb}
+.panes article h1 a em,.panes article h1 a:visited em,.panes article h1 em{font-style:normal;background-color:#feff99;padding:0 3px;margin:0 -3px}
+.panes article h1 a:hover{color:#60aadb}
+.panes article h2,.panes article h2 a,.panes article h2 a:visited{font:18px/21px lato-regular,Arial,'Helvetica Neue',Helvetica,sans-serif;margin-bottom:5px}
+.panes article h2 a em.author,.panes article h2 a:visited em.author,.panes article h2 em.author{font:11px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666}
+.panes article h2 a strong,.panes article h2 a:visited strong,.panes article h2 strong{font-weight:inherit;color:#087bbb}
+.panes article h2 a em,.panes article h2 a:visited em,.panes article h2 em{font-style:normal;background-color:#feff99;padding:0 3px;margin:0 -3px}
+.panes article aside{margin:0 0 5px 10px}
+.panes article aside p.link{border-top:1px #eee solid;padding-top:10px;margin-right:10px}
+.panes article footer{border-top:1px #eee solid;padding:7px 0;margin:0}
+.panes article footer{margin:0 10px}
+.panes .tab{padding:0}
+.panes .tab .tab-list li{padding:0 14px}
+.panes .tab .tab-list li a,.panes .tab .tab-list li a:visited{zoom:1;font:13px/15px lato-regular,Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525;border-bottom:1px #ddd solid;padding:15px 0 15px 0;display:block}
+.panes .tab .tab-list li a:after,.panes .tab .tab-list li a:before,.panes .tab .tab-list li a:visited:after,.panes .tab .tab-list li a:visited:before{content:"";display:table}
+.panes .tab .tab-list li a:after,.panes .tab .tab-list li a:visited:after{clear:both}
+.panes .tab .tab-list li a:hover,.panes .tab .tab-list li a:visited:hover{color:#60aadb}
+.panes .tab .tab-list li a img,.panes .tab .tab-list li a:visited img{float:left;padding:0 15px 0 0}
+.panes .tab .tab-list li.last a{border-bottom:none}
+.panes .tab .tab-list li:last-child a{border-bottom:none}
+.panes .tab.gs-box-most-shared li:last-child a{border-bottom:none}
+.swiper-container{position:relative;white-space:nowrap;overflow:hidden}
+.swiper-container .prev{left:0;-webkit-box-shadow:6px 0 7px -6px rgba(150,150,150,.3);box-shadow:6px 0 7px -6px rgba(150,150,150,.3)}
+.swiper-container .prev span{background-position:-70px 0}
+.swiper-container .next{right:0;-webkit-box-shadow:-6px 0 5px -4px rgba(150,150,150,.3);box-shadow:-6px 0 5px -4px rgba(150,150,150,.3)}
+.swiper-container .next span{background-position:-140px 0}
+.swiper-container .next,.swiper-container .prev{position:absolute;top:0;background-color:#fff;padding:5px;z-index:2;-moz-opacity:.9;-khtml-opacity:.9;-webkit-opacity:.9;opacity:.9;width:20px;-webkit-transition:none;transition:none}
+.emphasis .swiper-container .next,.emphasis .swiper-container .prev{background-color:#e5eef5}
+.swiper-container .next span,.swiper-container .prev span{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat;text-indent:-9999px;display:block;width:10px;height:20px;margin-left:5px}
+.apertura .swiper-container .next span,.apertura .swiper-container .prev span{margin-top:25px}
+.sub-content-1 .swiper-container .next span,.sub-content-1 .swiper-container .prev span{margin-top:15px}
+.from-network .swiper-container .next span,.from-network .swiper-container .prev span{margin-top:100px}
+.iniziative-editoriali .swiper-container .next span,.iniziative-editoriali .swiper-container .prev span{margin-top:80px}
+.topic-related .swiper-container .next span,.topic-related .swiper-container .prev span{margin-top:25px}
+.apertura .swiper-container .next,.apertura .swiper-container .prev{height:74px;top:5px}
+.sub-content-1 .swiper-container .next,.sub-content-1 .swiper-container .prev{height:60px;top:10px}
+.iniziative-editoriali .swiper-container .next,.iniziative-editoriali .swiper-container .prev{height:202px}
+.topic-related .swiper-container .next,.topic-related .swiper-container .prev{height:74px;top:10px}
+.swiper-container .next.disabled,.swiper-container .prev.disabled{display:none}
+.swiper-container .swiper-slide{white-space:normal;vertical-align:top;display:-moz-inline-stack;display:inline-block;zoom:1;margin:10px 0}
+.ie7 .swiper-container .swiper-slide{display:inline!important}
+.rel-slider.swiper-container .swiper-slide{margin:0}
+.ie7 .cycle-carousel-wrap{width:5000px}
+a,a:visited{text-decoration:none;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
+a.link,a.link:visited{color:#60aadb;text-decoration:none}
+a.link:hover{color:#2778ae}
+h1,h2,h3{text-rendering:optimizeLegibility}
+h1 u,h2 u,h3 u{text-decoration:none;border-bottom:1px solid #2778ae}
+h1 a,h1 a:visited,h2 a,h2 a:visited,h3 a,h3 a:visited{color:#000}
+h1 a:hover,h1 a:visited:hover,h2 a:hover,h2 a:visited:hover,h3 a:hover,h3 a:visited:hover{color:#60aadb}
+article p.link{clear:both;display:block;margin-bottom:6px}
+article p.link a,article p.link a:visited{color:#000;padding:2px;font:13px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;margin-bottom:4px;display:-moz-inline-stack;display:inline-block;zoom:1}
+.ie7 article p.link a,.ie7 article p.link a:visited{margin-bottom:0;padding-bottom:0}
+article p.link a strong,article p.link a:visited strong{color:#2778ae;text-transform:uppercase}
+.sub-content-2 article p.link{margin:0 10px 6px}
+article p.link a,article p.link a:visited{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat;background-position:-10000px -10000px}
+article p.link a.Articolo{background-position:3px -394px;padding-left:20px!important}
+article p.link a.Pubblico{background-position:0 -1376px;padding-left:43px!important}
+article p.link a.Foto{background-position:0 -504px;padding-left:20px!important}
+article p.link a.Video{background-position:0 -836px;padding-left:20px!important}
+article p.link a.Audio{background-position:0 -615px;padding-left:20px!important}
+article p.link a.Interattivo{background-position:0 -727px;padding-left:20px!important}
+article p.link a.Tutticampi{background-position:0 -3413px;padding-left:90px!important;display:inline}
+article p.link a.Inchieste{background-position:0 -945px;padding-left:88px!important}
+article p.link a.Economia{background-position:0 -1163px;padding-left:99px!important}
+article p.link a.RepubblicaDomani{background-position:0 -1053px;padding-left:147px!important}
+article p.link a.RepubblicaSera{background-position:0 -1268px;padding-left:49px!important}
+article p.link a.from-reptv-live{background-position:0 -3303px;padding-left:37px!important}
+.link-video{position:relative;float:left}
+.link-video span.icon-video{position:absolute;z-index:1;display:block;width:48px;height:38px;top:50%;left:50%;background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat;background-position:0 0}
+.sub-content-2 .link-video{float:none;display:block}
+.link-video-small{position:relative;float:left}
+.link-video-small span.icon-video{position:absolute;z-index:1;display:block;width:28px;height:22px;left:0;bottom:0;background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat;background-position:-1px -50px}
+.sub-content-2 .link-video-small{float:none;display:block}
+article.apertura .link-video span.icon-video{top:59px;left:54px}
+article.big-img .link-video span.icon-video{top:100px;left:297px}
+article.extra-img .link-video span.icon-video{top:138px;left:465px}
+.sub-content-1 article.big-img .link-video span.icon-video{top:91px;left:171px}
+.sub-content-1 article.has-image .link-video span.icon-video{top:38px;left:32px}
+article.apertura .related-slider .link-video-small span.icon-video{left:0;bottom:5px}
+.sub-content-1 .related-slider .link-video-small span.icon-video{left:0;bottom:5px}
+.sub-content-2 .link-video span.icon-video{top:44px;left:86px}
+.sidebar-content article.big-img .link-video span.icon-video{top:67px;left:129px}
+.sidebar-content .link-video-small span.icon-video{bottom:10px;left:0}
+#page-footer{clear:both;background-color:#f5f5f5;-webkit-box-shadow:inset 0 15px 15px -15px rgba(150,150,150,.3);box-shadow:inset 0 15px 15px -15px rgba(150,150,150,.3);padding:30px 0}
+.ipad #page-footer{width:978px;padding:30px}
+.has_domination #page-footer{width:978px;padding:30px 10px;margin:-1px auto 0 auto;position:relative}
+#page-footer a,#page-footer a:visited{color:#252525}
+#page-footer a:hover,#page-footer a:visited:hover{color:#60aadb}
+.bottom-footer,.footer-small{width:978px;margin:0 auto}
+.bottom-footer{border-top:1px #ddd solid;border-bottom:1px #ddd solid;padding:15px 0;margin-bottom:15px}
+.bottom-footer li{display:-moz-inline-stack;display:inline-block;zoom:1;margin-right:20px}
+.bottom-footer li.last{margin:0;padding:0}
+.bottom-footer a,.bottom-footer a:visited{font:14px/21px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525}
+#page-footer .footer-small{font:13px/22px Arial,'Helvetica Neue',Helvetica,sans-serif}
+#page-footer .footer-small a,#page-footer .footer-small a:visited{font:13px/22px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#60aadb}
+#page-footer .footer-small a:hover,#page-footer .footer-small a:visited:hover{color:#2778ae}
+.has-sharebutton{position:relative}
+.gs-morebuttons-close,.gs-sharebutton-more{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat}
+.comments-button,.share-button{font:12px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525;background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common.png);background-repeat:no-repeat;background-position:-1px -2288px;padding-left:20px!important}
+.share-and-comment{zoom:1;font:12px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666}
+.share-and-comment:after,.share-and-comment:before{content:"";display:table}
+.share-and-comment:after{clear:both}
+.share-and-comment .share-button{float:left;position:relative}
+.share-and-comment .comments-button{float:right;padding-right:16px;width:100px;background-position:103px -3078px;padding-left:0!important;text-align:right}
+.share-and-comment .gs-sharebutton-more{background-position:0 -1508px;padding-left:4px!important;display:inline-block;width:15px;height:16px;text-indent:-9999px;cursor:pointer}
+.share-and-comment .gs-sharebutton-more:hover{background-position:-18px -1508px;padding-left:4px!important}
+.sub-content-2 .article .share-label{display:none}
+.gs-morebuttons-background{position:absolute;top:0;left:0;z-index:1000;background:#fff;-moz-opacity:.9;-khtml-opacity:.9;-webkit-opacity:.9;opacity:.9;width:100%;height:100%}
+.gs-morebuttons-background.gs-morebuttons-hidden{display:none}
+.gs-morebuttons-background .share-overlay input{border:1px #ddd solid;background:#efefef}
+.gs-morebuttons-background .share-overlay .share-close{position:absolute;top:0;right:0}
+.gs-morebuttons-background .gs-morebuttons-shares{width:365px;height:70px;position:absolute;left:50%;top:50%;margin-left:-182px;margin-top:-35px}
+.gs-morebuttons-background .gs-morebuttons-shares .gs-sharebuttons.gs-sharebuttons-loaded{display:block}
+.gs-morebuttons-background .share-overlay form{position:absolute;left:50%;top:50%}
+.gs-morebuttons-background .gs-morebuttons-close{background-position:1px -1488px;padding-left:4px!important;display:inline-block;width:15px;height:18px;text-indent:-9999px;cursor:pointer;position:absolute;right:5px;top:5px}
+.gs-morebuttons-background .gs-morebuttons-close:hover{background-position:-17px -1488px;padding-left:4px!important}
+p.authors-list{font-size:11px;margin-bottom:10px;color:#666}
+em.author{font-size:11px;font-style:normal;color:#666;font-weight:400;background:0 0!important}
+em.author a,em.author a:visited{color:#60aadb}
+em.author a:hover,em.author a:visited:hover{color:#2778ae}
+.sidebar-content .box{margin:0 0 30px 0;padding:0 10px}
+.sidebar-content .box a,.sidebar-content .box a:visited{color:#60aadb}
+.sidebar-content .box a:hover,.sidebar-content .box a:visited:hover{color:#2778ae}
+.sidebar-content .box a.other,.sidebar-content .box a.other:visited{display:block;text-align:right;font-size:12px;padding:10px 0}
+.sidebar-content .box>header{border-bottom:1px #333 solid;padding:0 10px 10px 0;margin:0 -10px 0;text-transform:uppercase}
+.sidebar-content .box>header a,.sidebar-content .box>header a:visited{color:#252525}
+.sidebar-content .box>header a:hover,.sidebar-content .box>header a:visited:hover{color:#2778ae}
+.sidebar-content .box article{zoom:1;padding:15px 0;border-bottom:1px #eee solid}
+.sidebar-content .box article:after,.sidebar-content .box article:before{content:"";display:table}
+.sidebar-content .box article:after{clear:both}
+.sidebar-content .box article.last{border-bottom:none}
+.sidebar-content .box article img{margin:0 10px 0 0;float:left}
+.sidebar-content .box article .occhiello{font:12px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;color:#666;text-transform:uppercase;margin-bottom:5px}
+.sidebar-content .box article h1,.sidebar-content .box article h2{margin-bottom:3px}
+.sidebar-content .box article h1,.sidebar-content .box article h1 a,.sidebar-content .box article h1 a:visited{font:15px/17px lato-regular,Arial,'Helvetica Neue',Helvetica,sans-serif;color:#111}
+.sidebar-content .box article h1 a:hover,.sidebar-content .box article h1 a:visited:hover,.sidebar-content .box article h1:hover{color:#2778ae}
+.sidebar-content .box article a h2 a:visited,.sidebar-content .box article h1,.sidebar-content .box article h2{font:13px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#252525}
+.sidebar-content .box article a h2 a:visited:hover,.sidebar-content .box article h1:hover,.sidebar-content .box article h2:hover{color:#2778ae}
+.sidebar-content .box.box-list ul{zoom:1}
+.sidebar-content .box.box-list ul:after,.sidebar-content .box.box-list ul:before{content:"";display:table}
+.sidebar-content .box.box-list ul:after{clear:both}
+.sidebar-content .box.box-list li{border-bottom:1px #eee solid;padding:10px 0}
+.sidebar-content .box.box-list li a,.sidebar-content .box.box-list li a:visited{color:#000}
+.sidebar-content .box.box-list li a:hover,.sidebar-content .box.box-list li a:visited:hover{color:#60aadb}
+.sidebar-content .box.boxed{border:1px solid #ddd;padding:10px}
+.sidebar-content .box.boxed>header{margin:0 0 10px 0}
+.sidebar-content .box.boxed .other{border-top:1px #eee solid;padding-bottom:0;margin-top:10px;color:#60aadb}
+.news24ore{position:relative;margin-bottom:30px!important}
+.news24ore #news24ore{height:180px;overflow:hidden}
+.news24ore article{margin:15px 0}
+.news24ore article time{font:14px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#c60909}
+.news24ore article h1,.news24ore article h1 a,.news24ore article h1 a:visited{display:block;font:14px/16px lato-regular,Arial,'Helvetica Neue',Helvetica,sans-serif}
+.news24ore .other{position:absolute;right:10px;top:10px;font:13px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#60aadb}
+.news24ore .other:hover{color:#2778ae}
+.news24ore .news-pagination{text-align:center;border-top:1px #eee solid;position:absolute;left:0;bottom:0}
+.news24ore .news-pagination span{color:#ccc;font-size:30px;line-height:30px;margin:0 3px;cursor:pointer}
+.news24ore .news-pagination span.cycle-pager-active{color:#000}
+.sub-content-2 .news24ore .occhiello{margin:6px 0 0 0!important}
+.sub-content-2 .news24ore .news-pagination,.sub-content-2 .news24ore article{width:220px}
+.sidebar-content .news24ore{padding:10px}
+.sidebar-content .news24ore .occhiello{border-bottom:1px #333 solid;padding:0 10px 10px;margin:0 -10px 0;text-transform:uppercase}
+.sidebar-content .news24ore .news-pagination,.sidebar-content .news24ore article{width:286px}
+.no-js img.lazy{display:none}
+.no-js noscript img.lazy{display:block}
+.no-js .big-img header,.no-js .extra-img header{clear:both}
+img.lazy{display:none}
+.account-data-container{cursor:pointer}
+.account-container .account-name{width:64px;text-align:right}
+.ellipsis{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;overflow:hidden}
+.hidden{width:0;height:0;overflow:hidden;padding:0!important;margin:0!important;border:0!important}
+.main-content{max-width:642px;margin-right:15px;margin-left:15px;position:relative;padding-top:0;margin-left:0}
+.sidebar-content{padding-top:0}
+#gs-social-comments{clear:both;zoom:1;margin-left:0;max-width:558px!important;margin-left:84px;width:auto!important;}
+#gs-social-comments:after,#gs-social-comments:before{content:"";display:table}
+#gs-social-comments:after{clear:both}
+::-moz-selection{background:#fffed7}
+::selection{background:#fffed7}
+::-moz-selection{background:#fffed7}
+.no-js #share-detail:after{content:"attenzione! stai navingando con il supporto Javascript disabilitato";color:red}
+.no-js .gallery-controls,.no-js a.play{display:none}
+.topic-related{border-bottom:1px #eee solid;zoom:1;height:96px;overflow:hidden}
+.topic-related:after,.topic-related:before{content:"";display:table}
+.topic-related:after{clear:both}
+.topic-related h1.topic-name{width:222px;float:left;height:64px;padding-top:20px;margin-top:10px;margin-bottom:10px;padding-right:15px;border-right:1px #eee solid;font:16px/20px Georgia,Times,Times New Roman,serif;font-weight:700;color:#111}
+.topic-related h1.topic-name a{color:#111}
+.topic-related h1.topic-name a span{color:#60aadb}
+.topic-related h1.topic-name a:hover{color:#60aadb}
+#detail h1.category-name{width:222px;float:left;height:64px;padding-top:10px;margin-top:10px;margin-bottom:10px;padding-right:15px;border-right:1px #eee solid;font:16px/20px Georgia,Times,Times New Roman,serif;font-weight:700;color:#111}
+#detail h1.category-name a{color:#111}
+#detail h1.category-name a span{color:#60aadb}
+#detail h1.category-name a:hover{color:#60aadb}
+#detail h1.category-name strong{font:18px/22px Georgia,Times,Times New Roman,serif;font-weight:700;display:block;float:left;margin-right:10px}
+#detail .category-slider{border-top:1px solid #eee;margin-bottom:40px}
+#detail .topic-slider.category-slider{margin-bottom:15px}
+#detail .topic-slider article{width:176px;border-right:1px #eee solid;padding:4px;zoom:1}
+#detail .topic-slider article:after,#detail .topic-slider article:before{content:"";display:table}
+#detail .topic-slider article:after{clear:both}
+#detail .topic-slider article:hover{background-color:#eee}
+#detail .topic-slider article:hover .occhiello{color:#111}
+#detail .topic-slider article a,#detail .topic-slider article a:visited{color:#000}
+#detail .topic-slider article a:hover,#detail .topic-slider article a:visited:hover{color:#60aadb}
+#detail .topic-slider img{margin:0 5px 0 0;float:left}
+#detail .topic-slider .occhiello{font:13px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:uppercase;font-weight:700}
+#detail .topic-slider h1,#detail .topic-slider h1 a,#detail .topic-slider h1 a:visited{font:13px/15px Arial,'Helvetica Neue',Helvetica,sans-serif}
+#detail .inner-container{position:relative;max-width:978px;zoom:1;margin-top:60px;padding-bottom:30px}
+#detail .inner-container:after,#detail .inner-container:before{content:"";display:table}
+#detail .inner-container:after{clear:both}
+#social-share-top{position:absolute;top:-40px;right:0}
+#social-share-top #social-share-top-comments{float:left;margin-right:20px}
+#social-share-top #social-share-top-rest{float:left}
+#social-share-top .share-indoona{float:left;margin-left:20px}
+.gig-comment-body{font-size:14px!important;line-height:20px!important;color:#252525!important}
+.sidebar-content .fb-like-box{margin-bottom:30px}
+.label-commenti-gig{border-bottom:1px solid #111;float:right;margin-bottom:10px;margin-top:30px;padding:5px 5px 10px 5px;width:548px}
+#detail.content-type-speciale .highlighter-container{display:none}
+#detail.content-type-speciale .inner-container{margin-top:15px}
+iframe.box-tvzap{width:306px;height:520px;overflow:hidden;margin-bottom:15px}
+#box-ilmiolibro{margin-bottom:30px;zoom:1}
+#box-ilmiolibro:after,#box-ilmiolibro:before{content:"";display:table}
+#box-ilmiolibro:after{clear:both}
+#box-ilmiolibro .tab{clear:both;border:1px solid #ddd;padding:6px 19px 9px 19px;display:none;zoom:1}
+#box-ilmiolibro .tab:after,#box-ilmiolibro .tab:before{content:"";display:table}
+#box-ilmiolibro .tab:after{clear:both}
+#box-ilmiolibro .tab img{float:left;margin-right:5px;border:1px #dbdbdb solid}
+#box-ilmiolibro .iml-list li,#box-ilmiolibro li.iml-review{zoom:1;padding:20px 0;border-bottom:1px solid #dbdbdb}
+#box-ilmiolibro .iml-list li:after,#box-ilmiolibro .iml-list li:before,#box-ilmiolibro li.iml-review:after,#box-ilmiolibro li.iml-review:before{content:"";display:table}
+#box-ilmiolibro .iml-list li:after,#box-ilmiolibro li.iml-review:after{clear:both}
+#box-ilmiolibro .iml-label{color:#c00;text-transform:uppercase;font-size:10px;font-weight:700}
+#box-ilmiolibro a.iml-title,#box-ilmiolibro a.iml-title:visited{display:block;padding:0 0 2px 0;font-weight:700;font-size:13px;line-height:15px}
+#box-ilmiolibro a.iml-title:hover,#box-ilmiolibro a.iml-title:visited:hover{color:#c00}
+#box-ilmiolibro .iml-author{display:block;font-size:11px}
+#box-ilmiolibro .iml-link{display:block;font-size:11px;margin-top:8px}
+#box-ilmiolibro .iml-categoria{display:block;font-size:11px;margin-top:8px}
+#box-ilmiolibro .iml-bottom-link{width:50%;float:left;margin-top:10px}
+#box-ilmiolibro .iml-bottom-link li a,#box-ilmiolibro .iml-bottom-link li a:visited{font-size:11px;color:#222}
+#box-ilmiolibro .iml-bottom-link li a:hover{color:#c00}
+#box-ilmiolibro a,#box-ilmiolibro a:visited{font-size:11px;line-height:13px;color:#000}
+#storiebrevi-tab ul{margin-bottom:10px}
+#storiebrevi-tab li{position:relative;zoom:1;padding:10px 0;border-bottom:1px solid #dbdbdb}
+#storiebrevi-tab li:after,#storiebrevi-tab li:before{content:"";display:table}
+#storiebrevi-tab li:after{clear:both}
+#storiebrevi-tab li .minuti{position:absolute;display:block;padding:3px 0 3px 20px;width:35px;right:0;bottom:10px;font-size:11px;color:#fff;background-image:url(https://data.kataweb.it/storage/ilmiolibro/images/ico-time.png);background-repeat:no-repeat;background-position:5px 5px}
+#storiebrevi-tab li .type-avventura{background-color:#619a29}
+#storiebrevi-tab li .type-fantascienza{background-color:#08336e}
+#storiebrevi-tab li .type-favole{background-color:#4aa1b2}
+#storiebrevi-tab li .type-gialli{background-color:#fab216}
+#storiebrevi-tab li .type-narrativa{background-color:#b31210}
+#storiebrevi-tab li .type-rosa{background-color:#bc3e8d}
+#storiebrevi-tab li .type-umorismo{background-color:#e2740c}
+#storiebrevi-tab .descrizione-storiebrevi{width:55%;float:left;font-size:11px;line-height:13px;margin-top:10px}
+#storiebrevi-tab .descrizione-storiebrevi a{text-decoration:underline;color:#000}
+#ebook-tab ul{margin-bottom:10px}
+#ebook-tab li{position:relative;zoom:1;padding:10px 0;border-bottom:1px solid #dbdbdb}
+#ebook-tab li:after,#ebook-tab li:before{content:"";display:table}
+#ebook-tab li:after{clear:both}
+#ebook-tab li .minuti{position:absolute;display:block;padding:3px 0 3px 20px;width:35px;right:0;bottom:10px;font-size:11px;color:#fff;background-image:url(https://data.kataweb.it/storage/ilmiolibro/images/ico-time.png);background-repeat:no-repeat;background-position:5px 5px}
+#ebook-tab li .type-avventura{background-color:#619a29}
+#ebook-tab li .type-fantascienza{background-color:#08336e}
+#ebook-tab li .type-favole{background-color:#4aa1b2}
+#ebook-tab li .type-gialli{background-color:#fab216}
+#ebook-tab li .type-narrativa{background-color:#b31210}
+#ebook-tab li .type-rosa{background-color:#bc3e8d}
+#ebook-tab li .type-umorismo{background-color:#e2740c}
+#ebook-tab li.last{border-bottom:0}
+#ebook-tab .descrizione-ebook{width:100%;float:left;font-size:11px;line-height:13px;margin-top:-5px;padding-top:10px;border-top:1px solid #dbdbdb}
+#ebook-tab .descrizione-ebook a{text-decoration:underline;color:#000}
+#box-ilmiolibro-nav{zoom:1;width:100%;margin-bottom:-1px}
+#box-ilmiolibro-nav:after,#box-ilmiolibro-nav:before{content:"";display:table}
+#box-ilmiolibro-nav:after{clear:both}
+#box-ilmiolibro-nav li{display:table-cell;width:1%;float:none;margin-bottom:-1px;border:1px solid #fff;border-bottom:none;border-top:none;padding-top:1px}
+#box-ilmiolibro-nav li:first-child{margin-left:0;border-left:none}
+#box-ilmiolibro-nav li:last-child{border-right:none}
+#box-ilmiolibro-nav li a,#box-ilmiolibro-nav li a:visited{display:block;background:#f2f2f2;padding:10px 10px;text-transform:uppercase;border-left:1px solid transparent;border-right:1px solid transparent;color:#919191;font:12px/12px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;-webkit-transition:none;transition:none;text-align:center}
+#box-ilmiolibro-nav li:hover{border-top:none}
+#box-ilmiolibro-nav li.active,#box-ilmiolibro-nav li.activeli{border-top:none;background:#60aadb}
+#box-ilmiolibro-nav li.active a,#box-ilmiolibro-nav li.active a:visited,#box-ilmiolibro-nav li.activeli a,#box-ilmiolibro-nav li.activeli a:visited{color:#444;background:#fff;border-left:1px solid #ddd;border-right:1px solid #ddd;position:relative}
+#box-ilmiolibro-nav li:hover{border-top:none}
+#box-ilmiolibro-nav li a:hover{border-top:none;color:#444;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}
+.ie7 #box-ilmiolibro-nav{width:auto;margin-bottom:0}
+.ie7 #box-ilmiolibro-nav li{width:auto;display:inline;border:none;float:left;margin-left:4px}
+.ie7 #box-ilmiolibro-nav li.first,.ie7 #box-ilmiolibro-nav li:first-child{margin-left:0}
+.ie7 #box-ilmiolibro-nav li a,.ie7 #box-ilmiolibro-nav li a:visited{text-align:left}
+.ie7 #box-ilmiolibro-nav li:hover{background:0 0}
+.ie7 #box-ilmiolibro-nav li.active,.ie7 #box-ilmiolibro-nav li.activeli{border-top:1px solid #60aadb;background:0 0}
+.ie7 #box-ilmiolibro-nav li.active a,.ie7 #box-ilmiolibro-nav li.active a:visited,.ie7 #box-ilmiolibro-nav li.activeli a,.ie7 #box-ilmiolibro-nav li.activeli a:visited{position:static}
+.ie7 #box-ilmiolibro-nav li:hover{border-top:1px solid #60aadb}
+.storiebrevi-logo{text-indent:-9999px;width:92px;height:24px;background:url(https://data.kataweb.it/storage/ilmiolibro/images/storiebrevilogo.png) 0 0 no-repeat;float:right;margin-top:18px}
+.ilmiolibro-logo-small{background:url(https://www.repstatic.it/storage/ilmiolibro/images/ilmiolibro.png) no-repeat;width:100px;height:15px;float:right;text-indent:-9999px;margin:30px 10px 0 0}
+.ilmiolibroebook-logo-small{background:url(https://www.repstatic.it/storage/ilmiolibro/images/ilmiolibro.png) no-repeat;width:100px;height:15px;float:right;text-indent:-9999px;margin:10px 10px 0 0}
+div.button,div.button span,div.checker span,div.radio span,div.selector,div.selector span,div.uploader,div.uploader span.action{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-form.png);background-repeat:no-repeat;-webkit-font-smoothing:antialiased}
+.button,.checker,.radio,.selector,.uploader{display:-moz-inline-box;display:inline-block;zoom:1;vertical-align:middle}
+.checker input:focus,.radio input:focus,.selector select:focus,.uploader input:focus{outline:0}
+.button,.button *,.checker,.checker *,.radio,.radio *,.selector,.selector *,.uploader,.uploader *{margin:0;padding:0}
+.highContrastDetect{background:#fff;width:0;height:0}
+input.color,input.date,input.datetime,input.datetime-local,input.email,input.month,input.number,input.password,input.search,input.tel,input.text,input.time,input.url,input.week,select.uniform-multiselect,textarea.uniform{padding:3px;font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;border-top:solid 1px #e0dfdf;border-left:solid 1px #e0dfdf;border-bottom:solid 1px #e0dfdf;border-right:solid 1px #e0dfdf;background:#fcfcfc;outline:0;display:block}
+div.checker input,input.search,input.search:active{-moz-appearance:none;-webkit-appearance:none}
+input.color:focus,input.date:focus,input.datetime-local:focus,input.datetime:focus,input.email:focus,input.month:focus,input.number:focus,input.password:focus,input.search:focus,input.tel:focus,input.text:focus,input.time:focus,input.url:focus,input.week:focus,select.uniform-multiselect:focus,textarea.uniform:focus{background-color:#fff;border:solid 1px #999}
+textarea.uniform:focus{color:#000}
+div.selector{background-position:-5px -114px;line-height:24px;height:24px;padding:0 0 0 9px;position:relative;overflow:hidden}
+div.selector.fixedWidth{width:190px}
+div.selector span{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;background-position:right -6px;height:26px;line-height:26px;padding-right:25px;cursor:pointer;width:100%;display:block}
+div.selector.fixedWidth span{width:155px}
+div.selector select{opacity:0;-moz-opacity:0;border:none;background:0 0;position:absolute;height:22px;top:2px;left:0;width:100%}
+div.selector.active,div.selector:active{background-position:-6px -156px}
+div.selector.active span,div.selector:active span{background-position:right -26px}
+div.selector.focus,div.selector.hover,div.selector:hover{background-position:-5px -186px;cursor:pointer}
+div.selector.focus span,div.selector.hover span,div.selector:hover span{background-position:right -78px;color:#000;cursor:pointer}
+div.selector.active:hover,div.selector.focus.active,div.selector.focus:active,div.selector:hover:active{background-position:-5px -186px}
+div.selector.active:hover span,div.selector.focus.active span,div.selector.focus:active span,div.selector:hover:active span{background-position:right -78px}
+div.selector.disabled,div.selector.disabled.active,div.selector.disabled:active{background-position:0 -234px}
+div.selector.disabled span,div.selector.disabled.active span,div.selector.disabled:active span{background-position:right -104px}
+div.checker,div.checker input,div.checker span{width:19px;height:19px}
+div.checker{position:relative;margin-top:3px}
+div.checker span{display:-moz-inline-box;display:inline-block;zoom:1;text-align:center;background-position:-174px -277px}
+div.checker input{opacity:0;-moz-opacity:0;border:none;background:0 0;display:-moz-inline-box;display:inline-block;zoom:1}
+div.checker span.checked{background-position:-230px -277px}
+div.radio,div.radio input,div.radio span{width:18px;height:18px}
+div.radio{position:relative}
+div.radio span{display:-moz-inline-box;display:inline-block;zoom:1;text-align:center;background-position:-5px -276px}
+div.radio input{opacity:0;-moz-opacity:0;border:none;background:0 0;display:-moz-inline-box;display:inline-block;zoom:1;text-align:center}
+div.radio.active span,div.radio:active span{background-position:-5px -275px}
+div.radio.focus span,div.radio.hover span,div.radio:hover span{background-position:-33px -276px;cursor:pointer}
+div.radio span.checked{background-position:-117px -276px}
+div.uploader{background-position:0 -297px;height:28px;width:190px;cursor:pointer;position:relative;overflow:hidden}
+div.uploader span.action{background-position:right -409px;height:28px;line-height:28px;width:85px;text-align:center;float:left;display:inline;overflow:hidden;cursor:pointer}
+div.uploader span.filename{text-overflow:ellipsis;display:block;overflow:hidden;white-space:nowrap;float:left;cursor:default;height:24px;margin:2px 0 2px 2px;line-height:24px;width:82px;padding:0 10px}
+div.uploader input{opacity:0;-moz-opacity:0;border:none;background:0 0;position:absolute;top:0;right:0;float:right;cursor:default;width:100%;height:100%}
+div.uploader.focus,div.uploader.hover,div.uploader:hover{background-position:0 -353px}
+div.uploader.focus span.action,div.uploader.hover span.action,div.uploader:hover span.action{background-position:right -437px}
+div.uploader.active span.action,div.uploader:active span.action{background-position:right -465px}
+div.uploader.focus.active span.action,div.uploader.focus:active span.action,div.uploader:focus.active span.action,div.uploader:focus:active span.action{background-position:right -493px}
+div.uploader.disabled{background-position:0 -325px}
+div.uploader.disabled span.action{background-position:right -381px}
+div.button a,div.button button,div.button input{position:absolute;display:none}
+div.button{background:#0088c0;height:30px;cursor:pointer;position:relative;border-radius:3px}
+div.button span{display:-moz-inline-box;zoom:1;text-align:center;margin:8px 15px;padding:0;font:13px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:none;display:block;color:#fff;background-image:none}
+div.button.focus,div.button.hover,div.button:focus,div.button:hover{background:#00648d}
+div.button.focus span,div.button.hover span,div.button:focus span,div.button:hover span{background-position:right -581px}
+div.button.active,div.button:active{background-position:0 -671px}
+div.button.active span,div.button:active span{background-position:right -551px;cursor:default}
+div.button.disabled{background-position:0 -731px}
+div.button:disabled{background-position:0 -731px}
+div.button.disabled span{background-position:right -611px;cursor:default}
+div.button:disabled span{background-position:right -611px;cursor:default}
+form td{padding:5px 0}
+form label{font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;margin:10px 0 5px;display:block}
+form .hide{display:none}
+.label-left input.color,.label-left input.date,.label-left input.datetime,.label-left input.datetime-local,.label-left input.email,.label-left input.month,.label-left input.number,.label-left input.password,.label-left input.search,.label-left input.tel,.label-left input.text,.label-left input.time,.label-left input.url,.label-left input.week,.label-left select.uniform-multiselect,.label-left textarea.uniform{display:inline}
+.label-left label{display:inline}
+.label-left label{margin-right:10px}
+.ie7 .uniform input[type=text],.ie7 .uniform select,.ie8 .uniform input[type=text],.ie8 .uniform select{width:100%;padding:3px;font:13px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;border:1px solid #eee;background:#fcfcfc;outline:0;display:block}
+.ie7 .uniform button,.ie8 .uniform button{border:none;font:13px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;cursor:pointer;background:#0088c0;color:#fff;padding:4px 10px;float:right}
+.ie7 .uniform button:hover,.ie8 .uniform button:hover{background:#00648d}
+.trovaristoranti-box{font-size:13px}
+.trovaristoranti-box header{zoom:1;border-bottom:1px solid #ddd;margin-bottom:10px;padding-bottom:10px;font:13px/28px Arial,'Helvetica Neue',Helvetica,sans-serif}
+.trovaristoranti-box header:after,.trovaristoranti-box header:before{content:"";display:table}
+.trovaristoranti-box header:after{clear:both}
+.trovaristoranti-box header h1{float:left}
+.trovaristoranti-box header h1 a{text-indent:-9999px;display:block;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-400px -525px;width:156px;height:28px}
+.trovaristoranti-box header h1 a:hover{opacity:.8}
+.trovaristoranti-box header>a{float:right;color:#60aadb;font:13px/13px Arial,'Helvetica Neue',Helvetica,sans-serif;margin-top:12px}
+.trovaristoranti-box header>a span{color:#60aadb}
+.trovaristoranti-box header>a:hover{color:#2778ae}
+.trovaristoranti-box article{zoom:1;border-bottom:1px solid #ddd;margin-bottom:20px;padding-bottom:10px}
+.trovaristoranti-box article:after,.trovaristoranti-box article:before{content:"";display:table}
+.trovaristoranti-box article:after{clear:both}
+.trovaristoranti-box article>a{color:#000}
+.trovaristoranti-box article>a img{float:left;margin-right:5px}
+.trovaristoranti-box article>a h1{font:14px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;font-weight:700;color:#000}
+.trovaristoranti-box article>a h1:hover{color:#2778ae}
+.trovaristoranti-box article>a .overhead{font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;text-transform:uppercase;color:#999}
+.trovaristoranti-box article>a em{font-size:12px}
+.trovaristoranti-box #trovaristoranti-list-1{zoom:1;padding-bottom:5px;margin:10px 0 10px;border-bottom:1px #eee solid}
+.trovaristoranti-box #trovaristoranti-list-1:after,.trovaristoranti-box #trovaristoranti-list-1:before{content:"";display:table}
+.trovaristoranti-box #trovaristoranti-list-1:after{clear:both}
+.trovaristoranti-box #trovaristoranti-list-1 li{float:left;margin:0 0 8px 0;width:50%}
+.trovaristoranti-box #trovaristoranti-list-1 li a{color:#000;font:13px/15px Arial,'Helvetica Neue',Helvetica,sans-serif;padding:0 10px;display:inline-block}
+.trovaristoranti-box #trovaristoranti-list-1 li a.active,.trovaristoranti-box #trovaristoranti-list-1 li a:hover{color:#2778ae}
+.trovaristoranti-box .selector{position:relative;overflow:visible;margin-top:10px}
+.trovaristoranti-box .selector>a{background:#dedede;color:#000}
+.trovaristoranti-box .selector span{width:297px;padding-right:0}
+.trovaristoranti-box .selector ul{display:none;position:absolute;top:23px;left:0;width:302px;height:300px;z-index:10;overflow-y:auto;background:#fff;border:1px #ddd solid;-webkit-box-shadow:0 0 5px rgba(150,150,150,.3);box-shadow:0 0 5px rgba(150,150,150,.3);padding:5px 0}
+.trovaristoranti-box .selector ul a{display:block;color:#252525;padding:0 10px}
+.trovaristoranti-box .selector ul a:hover{background:#3a72d4;color:#fff}
+.sidebar-content .trovaristoranti-box{zoom:1;margin-bottom:30px;padding:0 10px}
+.sidebar-content .trovaristoranti-box:after,.sidebar-content .trovaristoranti-box:before{content:"";display:table}
+.sidebar-content .trovaristoranti-box:after{clear:both}
+.sidebar-content .trovaristoranti-box header{border-bottom:1px #333 solid;margin:0 -10px;padding:0 10px 10px 0}
+.sidebar-content .trovaristoranti-box header>a{margin-top:8px}
+.sidebar-content .trovaristoranti-box input.text{width:280px;margin-bottom:10px}
+.sidebar-content .trovaristoranti-box .button{float:right}
+.sidebar-content .trovaristoranti-box .selector{margin:0}
+.sidebar-content .trovaristoranti-box div.selector.fixedWidth{width:280px}
+.sidebar-content .trovaristoranti-box div.selector.fixedWidth span{width:280px}
+
+@media screen and (max-width: 600px) {
+	.sidebar-content {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  margin: 10px auto 5px 20px;
+	  display: none;
+	}
+}
+
+.social-content{width:54px;float:left;margin-right:30px;margin-left:-15px;position:relative}
+.body-text{max-width:558px;width:100%;float:right;margin-bottom:30px}
+.light-main-nav{border-top:1px #ddd solid;border-bottom:1px #ddd solid;padding:6px;margin-bottom:20px;position:relative;font-size:12px;text-transform:uppercase}
+.light-main-nav>ul{zoom:1}
+.light-main-nav>ul:after,.light-main-nav>ul:before{content:"";display:table}
+.light-main-nav>ul:after{clear:both}
+.light-main-nav>ul>li{float:left;padding:0 10px;border-left:1px #ddd solid}
+.light-main-nav>ul>li a{display:block;font:12px/16px Arial,'Helvetica Neue',Helvetica,sans-serif;color:#666}
+.light-main-nav>ul>li.nav-category a{color:#60aadb}
+.light-main-nav>ul>li.nav-home{border:none;padding-left:0}
+.light-main-nav>ul>li.nav-home a{text-indent:-9999px;width:15px;height:15px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-533px -85px}
+.light-main-nav>ul>li.has-submenu{position:relative;z-index:101}
+.light-main-nav>ul>li.has-submenu>a{padding-right:20px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;background-position:-170px -6px}
+.light-main-nav>ul>li.has-submenu>a.selected{background-position:-470px -7px}
+.light-main-nav>ul>li.has-submenu .submenu{z-index:10;display:none;background-color:#fff;padding:15px;position:absolute;top:41px;right:0;width:610px;-webkit-box-shadow:0 3px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px rgba(0,0,0,.2)}
+.light-main-nav>ul>li.has-submenu .submenu:before{bottom:100%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(235,235,235,0);border-bottom-color:#eee;border-width:9px;left:30px}
+.light-main-nav>ul>li.has-submenu .submenu li{margin-bottom:5px}
+.light-main-nav>ul>li.has-submenu .submenu a:hover{color:#60aadb}
+.light-main-nav .switch-controls{position:absolute;right:0;top:5px}
+.light-main-nav .switch-controls a{float:left;padding:0 10px;background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header.png);background-repeat:no-repeat;text-indent:-9999px;-webkit-transition:none;transition:none}
+.light-main-nav .switch-controls #switch-list{border-right:1px #ddd solid;background-position:-534px -106px}
+.light-main-nav .switch-controls #switch-list.active{background-position:-534px -142px}
+.light-main-nav .switch-controls #switch-grid{background-position:-530px -124px}
+.light-main-nav .switch-controls #switch-grid.active{background-position:-530px -160px}
+.section-24ore .adv-strip{border-bottom:none;margin-bottom:2px;border-top:1px #ddd solid;padding-top:2px}
+.section-24ore .main-content{margin-left:0}
+.section-24ore .main-article{float:right;width:558px;margin-bottom:20px}
+.section-24ore .main-article header h1{font:44px/48px lato-black,Arial,'Helvetica Neue',Helvetica,sans-serif;color:#000;margin-bottom:20px}
+.section-24ore .body-text{font-size:16px;line-height:23px;float:none;width:auto}
+.section-24ore .article-footer span{color:#60aadb;text-transform:uppercase}
+.section-24ore .sticky{position:absolute;top:0;zoom:1;background:#fff}
+.section-24ore .fixed{position:fixed!important;top:20px}
+.section-24ore #floating-share{display:block;text-align:center;width:80px;margin-top:0}
+.fixed .section-24ore #floating-share{margin-top:0}
+.section-24ore #floating-share tr{width:82px;text-align:center}
+.section-24ore #floating-share tr iframe{margin:0 auto}
+.section-24ore #floating-share tr table{margin:0 auto}
+.section-24ore #floating-share .gig-button-container{width:82px!important;border-bottom:1px solid #fff;padding-bottom:15px}
+.has_domination.section-24ore .social-content{margin-left:-5px}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+#network-extra-container .network-list-item>a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+#network-extra-container .network-espresso a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+#network-extra-container .network-inchieste a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.header-search-container form button{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.network-container ul .network-list-container .close-network{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+#network-ge-link{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.extra-container .account-data-container .header-logged{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.navigation-container .meteo-header{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.navigation-container .repubblica-su{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.navigation-container .repubblica-su strong{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.navigation-container .repubblica-su ul.load-images li a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header-extra@2x.jpg);background-size:578px 191px}
+.bottom-navigation-container .social-list-container{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.bottom-navigation-container .social-list-container h1{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.metropoli-milano-list-item>a,.metropoli-roma-list-item>a,.municipi-roma-list-item>a,.regioni-milano-list-item>a,.regioni-roma-list-item>a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.adv-ipad a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-adv-ipad@2x.png);background-size:362px 239px}
+.adv-ipad #close-adv-ipad{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-adv-ipad@2x.png);background-size:362px 239px}
+.swiper-container .next span,.swiper-container .prev span{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+article p.link a,article p.link a:visited{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+.link-video span.icon-video{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+.link-video-small span.icon-video{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+.gs-morebuttons-close,.gs-sharebutton-more{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+.comments-button,.share-button{background-image:url(https://www.repstatic.it/cless/main/locali/2013-v1/img/common/sprite-common@2x.png);background-size:175px 3680px}
+.trovaristoranti-box header h1 a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.light-main-nav>ul>li.nav-home a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.light-main-nav>ul>li.has-submenu>a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+.light-main-nav .switch-controls a{background-image:url(https://www.repstatic.it/cless/main/nazionale/2013-v1/img/common/sprite-header@2x.png);background-size:550px 635px}
+}
+@media print{
+#network-extra-container{display:none}
+.main-nav{display:none}
+.bottom-footer{display:none}
+*{background:0 0!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+a,a:visited{text-decoration:underline}
+blockquote,pre{page-break-inside:avoid}
+thead{display:table-header-group}
+img,tr{page-break-inside:avoid}
+img{max-width:100%!important}
+h2,h3,p{orphans:3;widows:3}
+h2,h3{page-break-after:avoid}
+.adv{display:none}
+body{font:11pt Arial,'Helvetica Neue',Helvetica,sans-serif;line-height:1.3}
+#detail{margin:.5cm 3cm .5cm 1cm}
+#detail .inner-container,#detail article header{width:100%;padding:0;margin:0}
+#detail .body-text .toolbar ul,#detail .body-text .toolbar:first-child,#detail .sticky,#detail .topic-related,#detail aside.related,#detail aside.tags{display:none}
+.light-main-nav{display:none}
+}
